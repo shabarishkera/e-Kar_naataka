@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import History from './components/History'
+import History from './components/History';
+import Explore from './components/Explore'
 import {
   BrowserRouter as Router,
   Route,
@@ -18,6 +19,7 @@ function App() {
        
      <Route  exact  path='/' element={<Home/>} />
          <Route  exact  path='history' element={<History/>} />
+           <Route  exact  path='explore' element={<Explore/>} />
     
        </Routes>
        </Router>

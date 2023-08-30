@@ -1,7 +1,7 @@
 import {Link } from 'react-router-dom'
 export default function Navbar()
 {
-return (<><nav className="navbar navbar-expand-lg navbar-light bg-light">
+return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <Link  className="navbar-brand mx-5" to="#">ಇ-Karನಾಟಕ</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@ return (<><nav className="navbar navbar-expand-lg navbar-light bg-light">
       </li>
 
       <li className="nav-item">
-        <Link  className="nav-link" to="/">Explore</Link>
+        <Link  className="nav-link" to="/explore">Explore</Link>
       </li>
       <li className="nav-item">
         <Link  className="nav-link" to="/">My Learning</Link>
