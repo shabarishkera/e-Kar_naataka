@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card
+{
+
+  
+  
+  min-width: 200px;
+}
+.card-deck
+{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
