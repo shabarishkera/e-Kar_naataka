@@ -11,6 +11,7 @@ export default function  Home(argument) {
 		<Features/>
 		<Team/>
 		<Footer/>
+		 <i class="bi bi-browser-edge"></i>
 
 </>
 
