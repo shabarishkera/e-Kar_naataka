@@ -1,8 +1,8 @@
 import {Link } from 'react-router-dom'
 export default function Navbar()
 {
-return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark">
- <i class="bi bi-browser-edge text-light h1 mx-3"></i>
+return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
+ <i className="bi bi-browser-edge text-light h1 mx-3"></i>
   <Link  className="navbar-brand  " to="#">ಇ-Karನಾಟಕ</Link>
 
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@ return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   </div>
   
       
-      <button class="btn btn-outline-warning my-2 my-sm-0 mx-2" type="submit">Login/Signup</button>
+      <button className="btn btn-outline-warning my-2 my-sm-0 mx-2" type="submit">Login/Signup</button>
     
 </nav></>);
 
