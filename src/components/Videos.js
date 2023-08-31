@@ -1,7 +1,8 @@
 import {useEffect,useState} from 'react';
+import {apikey} from '../ApiKey';
 export default function Videos(props)
 {
-	const url=`https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyASWi_z6OL0GolpqRaMHky2jBJlw1tROTo&q=artforms of karnataka&maxResults=20`;
+	const url=`https://www.googleapis.com/youtube/v3/search?part=snippet&key=${apikey}&q=artforms of karnataka&maxResults=20`;
 const [data,setdata]=useState([]);
 useEffect(() => {
     const fetchYoutube = async () => {
