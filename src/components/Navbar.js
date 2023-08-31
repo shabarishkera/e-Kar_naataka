@@ -26,13 +26,15 @@ return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
       <li className="nav-item">
         <Link  className="nav-link" to="/">My Learning</Link>
       </li>
-  
+
+     
     </ul>
-   
+
   </div>
   
-      
-      <button className="btn btn-outline-warning my-2 my-sm-0 mx-2" type="submit">Login/Signup</button>
+       <button className="btn btn-outline-warning my-2 my-sm-0 mx-2 " type="submit">Login/Signup</button>
+     
+   
     
 </nav></>);
 

@@ -175,3 +175,8 @@ backdrop-filter: blur(0px) saturate(102%);
             {
               margin-top:-100px
             }
+            .card-explore
+            {
+
+              width: 400px;
+            }

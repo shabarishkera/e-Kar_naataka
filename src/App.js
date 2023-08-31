@@ -20,6 +20,7 @@ function App() {
      <Route  exact  path='/' element={<Home/>} />
          <Route  exact  path='history' element={<History/>} />
            <Route  exact  path='explore' element={<Explore/>} />
+           <Route  exact  path='e-Kar_naataka' element={<Home/>} />
     
        </Routes>
        </Router>

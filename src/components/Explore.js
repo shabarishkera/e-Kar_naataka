@@ -1,3 +1,4 @@
+import Videos from './Videos'
 export default function  Explore(argument) {
 	return (
 	<>
@@ -19,56 +20,40 @@ export default function  Explore(argument) {
         </div>
     </div>
 
-    <div className="container">
-      <div className="card-deck mb-3 text-center">
-        <div className="card mb-4 box-shadow">
-          <div className="card-header">
-            <h4 className="my-0 font-weight-normal">Free</h4>
-          </div>
-          <div className="card-body">
-            <h1 className="card-title pricing-card-title">$0 <small className="text-muted">/ mo</small></h1>
-            <ul className="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" className="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-          </div>
+    
+     <div class="container" style={{paddingTop: '10vh',paddingBottom:'10vh'}}>
+        <div class="row align-items-center px-2">
+            <div class="col-12 col-md-7 col-lg-6">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+                        <h1>Wide Variety Of Contents.</h1>
+                        <p>Explore Thousands of Materials and Video tutorials</p>
+                    </div>
+                </div>
+                <div class="lc-block d-flex mb-5">
+                    <div class="pe-3">
+                        <h3 class="h2 mb-0 text-secondary" editable="inline">100%</h3>
+                        <span editable="inline" class="mb-0 text-muted"> Satisfaction </span>
+                    </div>
+                    <div class="border-start"></div>
+                    <div class="px-3">
+                        <h3 class="h2 mb-0 text-secondary" editable="inline">500+</h3>
+                        <span editable="inline" class="mb-0 text-muted"> Materials </span>
+                    </div>
+                    <div class="border-start"></div>
+                    <div class="ps-3">
+                        <h3 class="h2 mb-0 text-secondary" editable="inline">1000+</h3>
+                        <span editable="inline" class="mb-0 text-muted">Videos </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-6">
+                <div class="lc-block"><img alt="" class="img-fluid mx-auto d-block" src="https://cdn.livecanvas.com/media/svg/undraw-sample/undraw_connected_world_wuay.svg"/></div>
+            </div>
         </div>
-        <div className="card mb-4 box-shadow">
-          <div className="card-header">
-            <h4 className="my-0 font-weight-normal">Pro</h4>
-          </div>
-          <div className="card-body">
-            <h1 className="card-title pricing-card-title">$15 <small className="text-muted">/ mo</small></h1>
-            <ul className="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" className="btn btn-lg btn-block btn-primary">Get started</button>
-          </div>
-        </div>
-        <div className="card mb-4 box-shadow">
-          <div className="card-header">
-            <h4 className="my-0 font-weight-normal">Enterprise</h4>
-          </div>
-          <div className="card-body">
-            <h1 className="card-title pricing-card-title">$29 <small className="text-muted">/ mo</small></h1>
-            <ul className="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" className="btn btn-lg btn-block btn-primary">Contact us</button>
-          </div>
-        </div>
-      </div>
-
-   
     </div>
+<Videos/>
+
+
     </>);
 }
