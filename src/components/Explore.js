@@ -21,38 +21,42 @@ export default function  Explore(argument) {
     </div>
 
     
-     <div class="container" style={{paddingTop: '10vh',paddingBottom:'10vh'}}>
-        <div class="row align-items-center px-2">
-            <div class="col-12 col-md-7 col-lg-6">
-                <div class="lc-block mb-4">
+     <div className="container" style={{paddingTop: '10vh',paddingBottom:'10vh'}}>
+        <div className="row align-items-center px-2">
+            <div className="col-12 col-md-7 col-lg-6">
+                <div className="lc-block mb-4">
                     <div editable="rich">
                         <h1>Wide Variety Of Contents.</h1>
                         <p>Explore Thousands of Materials and Video tutorials</p>
                     </div>
                 </div>
-                <div class="lc-block d-flex mb-5">
-                    <div class="pe-3">
-                        <h3 class="h2 mb-0 text-secondary" editable="inline">100%</h3>
-                        <span editable="inline" class="mb-0 text-muted"> Satisfaction </span>
+                <div className="lc-block d-flex mb-5">
+                    <div className="pe-3">
+                        <h3 className="h2 mb-0 text-secondary" editable="inline">100%</h3>
+                        <span editable="inline" className="mb-0 text-muted"> Satisfaction </span>
                     </div>
-                    <div class="border-start"></div>
-                    <div class="px-3">
-                        <h3 class="h2 mb-0 text-secondary" editable="inline">500+</h3>
-                        <span editable="inline" class="mb-0 text-muted"> Materials </span>
+                    <div className="border-start"></div>
+                    <div className="px-3">
+                        <h3 className="h2 mb-0 text-secondary" editable="inline">500+</h3>
+                        <span editable="inline" className="mb-0 text-muted"> Materials </span>
                     </div>
-                    <div class="border-start"></div>
-                    <div class="ps-3">
-                        <h3 class="h2 mb-0 text-secondary" editable="inline">1000+</h3>
-                        <span editable="inline" class="mb-0 text-muted">Videos </span>
+                    <div className="border-start"></div>
+                    <div className="ps-3">
+                        <h3 className="h2 mb-0 text-secondary" editable="inline">1000+</h3>
+                        <span editable="inline" className="mb-0 text-muted">Videos </span>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-5 col-lg-6">
-                <div class="lc-block"><img alt="" class="img-fluid mx-auto d-block" src="https://cdn.livecanvas.com/media/svg/undraw-sample/undraw_connected_world_wuay.svg"/></div>
+            <div className="col-12 col-md-5 col-lg-6">
+                <div className="lc-block"><img alt="" className="img-fluid mx-auto d-block" src="https://cdn.livecanvas.com/media/svg/undraw-sample/undraw_connected_world_wuay.svg"/></div>
             </div>
         </div>
     </div>
-<Videos/>
+
+
+
+    
+<Videos keyword='artforms of karnataka'/>
 
 
     </>);

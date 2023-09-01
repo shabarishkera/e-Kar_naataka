@@ -17,7 +17,7 @@ return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
         <Link  className="nav-link" to="/history">History</Link>
       </li>
       <li className="nav-item">
-        <Link  className="nav-link" to="/">Search</Link>
+        <Link  className="nav-link" to="/search">Search</Link>
       </li>
 
       <li className="nav-item">
