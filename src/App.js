@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import History from './components/History';
 import Search from './components/Search'
 import Explore from './components/Explore'
+import Error from './components/Error'
 import {
   BrowserRouter as Router,
   Route,
@@ -23,7 +24,7 @@ function App() {
            <Route  exact  path='explore' element={<Explore/>} />
            <Route  exact  path='e-Kar_naataka' element={<Home/>} />
            <Route  exact  path='search' element={<Search/>} />
-    
+      <Route path='*' element={<Error />} />
     
        </Routes>
        </Router>
