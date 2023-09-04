@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/e-Kar_naataka/static/css/main.f4fc217e.css",
-    "main.js": "/e-Kar_naataka/static/js/main.55cc0b83.js",
+    "main.css": "/e-Kar_naataka/static/css/main.baa80730.css",
+    "main.js": "/e-Kar_naataka/static/js/main.e676b801.js",
     "static/js/787.87720c37.chunk.js": "/e-Kar_naataka/static/js/787.87720c37.chunk.js",
     "static/media/intro.mp4": "/e-Kar_naataka/static/media/intro.7f0496341fe83b8fc533.mp4",
     "static/media/bootstrap-icons.woff?": "/e-Kar_naataka/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/e-Kar_naataka/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "static/media/logo.svg": "/e-Kar_naataka/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/e-Kar_naataka/index.html",
-    "main.f4fc217e.css.map": "/e-Kar_naataka/static/css/main.f4fc217e.css.map",
-    "main.55cc0b83.js.map": "/e-Kar_naataka/static/js/main.55cc0b83.js.map",
+    "main.baa80730.css.map": "/e-Kar_naataka/static/css/main.baa80730.css.map",
+    "main.e676b801.js.map": "/e-Kar_naataka/static/js/main.e676b801.js.map",
     "787.87720c37.chunk.js.map": "/e-Kar_naataka/static/js/787.87720c37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4fc217e.css",
-    "static/js/main.55cc0b83.js"
+    "static/css/main.baa80730.css",
+    "static/js/main.e676b801.js"
   ]
 }
