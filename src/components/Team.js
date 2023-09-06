@@ -43,7 +43,7 @@ export default function Team(argument) {
             <div class="col-md-3 text-center py-4">
                 <div class="lc-block"><img alt="" class="rounded-circle mb-3" src="https://avatars.githubusercontent.com/u/107807504?s=400&u=93b55da8c483ab8fd3d9023feaaad3950debff07&v=4" style={{height:'10vh'}} loading="lazy"/>
                     <h5 editable="inline"><strong>NANMA KRISHNAN E</strong></h5>
-                    <small editable="inline" class="text-secondary" style={{letterSpacing:"1px"}}>SOME LIPSUM</small>
+                    <small editable="inline" class="text-secondary" style={{letterSpacing:"1px"}}>GRAPHIC DESIGNER</small>
                 </div>
                 <div class="lc-block mt-2 border-top">
                     <div editable="rich">
