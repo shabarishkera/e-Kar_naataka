@@ -1,11 +1,11 @@
 export default function Features(argument) {
 	return (<>
  
-<div class="row">
-            <div class="col-md-12 text-center">
-                <div class="lc-block">
-                    <span editable="inline" class="small mt-4 d-block"></span>
-                    <h2 editable="inline" class="display-2 mb-0"><b>Features</b></h2>
+<div className="row">
+            <div className="col-md-12 text-center">
+                <div className="lc-block">
+                    <span editable="inline" className="small mt-4 d-block"></span>
+                    <h2 editable="inline" className="display-2 mb-0"><b>Features</b></h2>
                     <p editable="inline"> we have to offer
                     </p>
                 </div>

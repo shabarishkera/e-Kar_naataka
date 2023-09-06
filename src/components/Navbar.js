@@ -2,7 +2,7 @@ import {Link } from 'react-router-dom'
 export default function Navbar()
 {
 return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
- <i className="bi bi-browser-edge text-light h1 mx-3"></i>
+ <i className="bi bi-boxes text-light h1 mx-3"></i>
   <Link  className="navbar-brand  " to="#">ಇ-Karನಾಟಕ</Link>
 
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

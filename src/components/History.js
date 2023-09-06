@@ -4,31 +4,31 @@ export default function History(argument) {
 	
 	return (
 <>
-  <div class="d-flex container-fluid history-hero" lc-helper="background" >
+  <div className="d-flex container-fluid history-hero" lc-helper="background" >
     </div>
-    <div class="container p-5 bg-light history-hero-wrap" >
-        <div class="row">
-            <div class="col-md-4 text-center align-self-center">
-                <div class="lc-block border-end border-2 ">
+    <div className="container p-5 bg-light history-hero-wrap" >
+        <div className="row">
+            <div className="col-md-4 text-center align-self-center">
+                <div className="lc-block border-end border-2 ">
                     <div editable="rich">
-                        <p class="display-4 text-secondary">HISTORY</p>
+                        <p className="display-4 text-secondary">HISTORY</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="lc-block ">
+            <div className="col-md-8">
+                <div className="lc-block ">
                     <div editable="rich">
-                        <p class="display-4">Discover The Past</p>
+                        <p className="display-4">Discover The Past</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-9 offset-md-1">
-                <div class="lc-block mt-5">
+        <div className="row">
+            <div className="col-md-9 offset-md-1">
+                <div className="lc-block mt-5">
                     <div editable="rich">
-                        <p class="lead text-secondary"> From ancient rituals to modern interpretations, our platform offers a curated exploration of the roots that have nurtured these exquisite expressions..&nbsp;</p>
-                        <p class="lead text-secondary"> </p>
+                        <p className="lead text-secondary"> From ancient rituals to modern interpretations, our platform offers a curated exploration of the roots that have nurtured these exquisite expressions..&nbsp;</p>
+                        <p className="lead text-secondary"> </p>
                     </div>
                 </div>
             </div>
