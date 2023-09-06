@@ -1,9 +1,11 @@
 import {useEffect,useState} from 'react';
+import {useNavigate} from 'react-router-dom'
 import {apikey} from '../ApiKey';
 export default function Videos({keyword})
 {
 	const url=`https://www.googleapis.com/youtube/v3/search?part=snippet&key=${apikey}&q=${keyword}&maxResults=20`;
 const [data,setdata]=useState([]);
+const nav=useNavigate();
 useEffect(() => {
     const fetchYoutube = async () => {
   try{
@@ -14,7 +16,7 @@ useEffect(() => {
     setdata(jsondata.items);}
     catch (e)
     {
-        console.log("Network error");
+       nav("networkError")
     }
 }
 
