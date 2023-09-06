@@ -24,7 +24,7 @@ return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
         <Link  className="nav-link" to="/explore">Explore</Link>
       </li>
       <li className="nav-item">
-        <Link  className="nav-link" to="/">My Learning</Link>
+        <Link  className="nav-link" to="/myLearning">My Learning</Link>
       </li>
 
      

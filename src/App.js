@@ -7,6 +7,9 @@ import Explore from './components/Explore'
 import Error from './components/Error'
 import NetworkError from './components/NetworkError'
 import Footer from './components/Footer'
+import MyLearning from './components/MyLearning'
+import DolluKunitha from './artforms/DolluKunitha'
+import Veeragase from './artforms/Veeragase'
 import {
   BrowserRouter as Router,
   Route,
@@ -27,6 +30,9 @@ function App() {
            <Route  exact  path='e-Kar_naataka' element={<Home/>} />
            <Route  exact  path='search' element={<Search/>} />
            <Route  exact  path='networkError' element={<NetworkError/>} />
+           <Route  exact  path='history/dolluKunitha' element={<DolluKunitha/>} />
+            <Route  exact  path='history/veeragase' element={<Veeragase/>} />
+             <Route  exact  path='myLearning' element={<MyLearning/>} />
       <Route path='*' element={<Error />} />
     
        </Routes>

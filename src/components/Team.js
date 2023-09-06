@@ -43,7 +43,7 @@ export default function Team(argument) {
             <div className="col-md-3 text-center py-4">
                 <div className="lc-block"><img alt="" className="rounded-circle mb-3" src="https://avatars.githubusercontent.com/u/107807504?s=400&u=93b55da8c483ab8fd3d9023feaaad3950debff07&v=4" style={{height:'10vh'}} loading="lazy"/>
                     <h5 editable="inline"><strong>NANMA KRISHNAN E</strong></h5>
-                    <small editable="inline" className="text-secondary" style={{letterSpacing:"1px"}}>GRAPHIC DESIGNER</small>
+                    <small editable="inline" className="text-secondary" style={{letterSpacing:"1px"}}>BUG HUNTER</small>
                 </div>
                 <div className="lc-block mt-2 border-top">
                     <div editable="rich">
@@ -91,11 +91,11 @@ export default function Team(argument) {
             <div className="col-md-3 text-center py-4">
                 <div className="lc-block"><img alt="" className="rounded-circle mb-3" src="https://avatars.githubusercontent.com/u/119415453?s=400&u=8b39743b51f8efb66c2adaa5a59c321c57d3a02b&v=4" style={{height:"10vh"}} loading="lazy"/>
                     <h5 editable="inline"><strong>SHAMITHA KT</strong></h5>
-                    <small editable="inline" className="text-secondary" style={{letterSpacing:"1px"}}>SOME LIPSUM</small>
+                    <small editable="inline" className="text-secondary" style={{letterSpacing:"1px"}}>GRAPHIC DESIGNER</small>
                 </div>
                 <div className="lc-block mt-2 border-top">
                     <div editable="rich">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit amet quis enim. Aliquam erat volutpat.</p>
+                        <p>Design is not just what it looks like and feels like. Design is how it works. Enthusiastic to design more creative and much excited about outcome and future development.</p>
                     </div>
                 </div>
                 <div className="lc-block"><a className="text-dark text-decoration-none" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="1em" height="1em" lc-helper="svg-icon" fill="currentColor">

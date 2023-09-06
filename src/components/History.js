@@ -114,7 +114,7 @@ export default function History(argument) {
         
        
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-          <Link to="/" className="text-decoration-none" >
+          <Link to="/history/dolluKunitha" className="text-decoration-none" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
