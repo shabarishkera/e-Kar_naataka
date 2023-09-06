@@ -29,15 +29,14 @@ export default function Error(argument) {
 					</div>
 				</div>
 				<div class="lc-block">
-					<a class="btn btn-lg btn-primary" href="#" role="button">Back to homepage</a>
+				
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
  
-      <p class="py-5 small text-center text-muted">  Powered by <a href="https://library.livecanvas.com/">LiveCanvas Bootstrap Page Templates</a>  
-    </p>
+    
   
 
 		</>)

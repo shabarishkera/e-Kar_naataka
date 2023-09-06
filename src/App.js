@@ -5,6 +5,7 @@ import History from './components/History';
 import Search from './components/Search'
 import Explore from './components/Explore'
 import Error from './components/Error'
+import Footer from './components/Footer'
 import {
   BrowserRouter as Router,
   Route,
@@ -27,6 +28,7 @@ function App() {
       <Route path='*' element={<Error />} />
     
        </Routes>
+       <Footer/>
        </Router>
     </div>
   );

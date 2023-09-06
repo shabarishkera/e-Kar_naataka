@@ -1,54 +1,92 @@
 export default function Features(argument) {
 	return (<>
  
- <div className="jumbotron p-3 p-md-5 text-white rounded bg-secondary ">
-        <div className="col-md-6 px-0">
-          <h1 className="display-4 font-italic">Features We Offer</h1>
-          <p className="lead my-3">Discover the impressive array of features and capabilities that set us apart. Dive into a comprehensive overview of what makes our product, service, or organization unique and valuable. From innovative technologies to user-friendly interfaces, this exploration will highlight the key offerings that define us and showcase how we cater to your needs. Explore  and unlock a world of possibilities.</p>
-         
+<div class="row">
+            <div class="col-md-12 text-center">
+                <div class="lc-block">
+                    <span editable="inline" class="small mt-4 d-block"></span>
+                    <h2 editable="inline" class="display-2 mb-0"><b>Features</b></h2>
+                    <p editable="inline"> we have to offer
+                    </p>
+                </div>
+                
+            </div>
         </div>
-      </div>
-      <hr className="featurette-divider"/>
-      <div className="row featurette">
-          <div className="col-md-7">
-            <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It'll blow your mind.</span></h2>
-            <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div className="col-md-5">
-            <img className="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style={{width: '500px',height: '500px'}} src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18a46cd3c7a%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18a46cd3c7a%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.13333129882812%22%20y%3D%22261.27999954223634%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true"/>
-          </div>
-        </div>
-         <hr className="featurette-divider"/>
-         <div className="row featurette">
-          <div className="col-md-7 order-md-2">
-            <h2 className="featurette-heading">Oh yeah, it's that good. <span className="text-muted">See for yourself.</span></h2>
-            <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div className="col-md-5 order-md-1">
-            <img className="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style={{width: '500px',height: '500px'}} src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18a46cd3c80%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18a46cd3c80%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.13333129882812%22%20y%3D%22261.27999954223634%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true"/>
-          </div>
-        </div>
-        <hr className="featurette-divider"/>
-           <div className="row featurette">
-          <div className="col-md-7">
-            <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It'll blow your mind.</span></h2>
-            <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div className="col-md-5">
-            <img className="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style={{width: '500px',height: '500px'}} src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18a46cd3c7a%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18a46cd3c7a%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.13333129882812%22%20y%3D%22261.27999954223634%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true"/>
-          </div>
-        </div>
-         <hr className="featurette-divider"/>
-         <div className="row featurette">
-          <div className="col-md-7 order-md-2">
-            <h2 className="featurette-heading">Oh yeah, it's that good. <span className="text-muted">See for yourself.</span></h2>
-            <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div className="col-md-5 order-md-1">
-            <img className="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style={{width: '500px',height: '500px'}} src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18a46cd3c80%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18a46cd3c80%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.13333129882812%22%20y%3D%22261.27999954223634%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true"/>
-          </div>
+      <div className="container-fluid p-0 overflow-hidden">
+        <div className="row g-0 my-5">
+            <div lc-helper="background" className="col-lg-6 order-lg-2  feature_bg-1" style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+
+            </div>
+            <div className="col-lg-6 order-lg-1 my-auto px-5 py-5">
+                <div className="lc-block">
+                    <div editable="rich">
+                        <h1>Discover the Past</h1>
+                        <p className="lead">Delve into the annals of history as we unravel the captivating stories behind Karnataka's art forms. From ancient rituals to modern interpretations, our platform offers a curated exploration of the roots that have nurtured these exquisite expressions.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-    
+        <div className="row g-0 my-5">
+           <div lc-helper="background" className="col-lg-6 feature_bg-2 " style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',}}>
+
+            </div>
+            <div className="col-lg-6 my-auto px-5 py-5">
+                <div className="lc-block">
+                    <div editable="rich">
+                        <h1>Visuals and Insights</h1>
+                        <p className="lead">Immerse yourself in the visual splendor of traditional art forms with a curated collection of videos, lectures, and documentaries. Whether it's the mesmerizing grace of traditional dance or the intricate notes of soul-stirring melodies, our library is a treasure trove of sights and sounds that celebrate the essence of Karnataka's artistic endeavors.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       <div className="row g-0 my-5">
+            <div lc-helper="background" className="col-lg-6 order-lg-2  feature_bg-1" style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60')"}}>
+
+            </div>
+            <div className="col-lg-6 order-lg-1 my-auto px-5 py-5">
+                <div className="lc-block">
+                    <div editable="rich">
+                        <h1>Guided Learning</h1>
+                        <p className="lead">Ignite your passion for the arts with our expertly crafted tutorials and guides. Designed for beginners and enthusiasts alike, these tutorials cover a spectrum of art forms, from the enchanting movements of Yakshagana to the harmonious melodies of Carnatic music. Let our platform be your starting point on a journey of artistic mastery.
+.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div className="row g-0 my-5">
+           <div lc-helper="background" className="col-lg-6 feature_bg-2 " style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://images.unsplash.com/photo-1512238972088-8acb84db0771?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1lbnRvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60')"}}>
+
+            </div>
+            <div className="col-lg-6 my-auto px-5 py-5">
+                <div className="lc-block">
+                    <div editable="rich">
+                        <h1>Mentors and Platforms</h1>
+                        <p className="lead">Seek guidance from the best in the field as we curate the finest tutorials from acclaimed platforms and distinguished tutors. Whether you aspire to master the nuances of a traditional dance or wield the magic of a musical instrument, our platform connects you with a world of learning opportunities.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+          <div className="row g-0">
+            <div lc-helper="background" className="col-lg-6 order-lg-2  feature_bg-1" style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://images.unsplash.com/photo-1471958680802-1345a694ba6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhdGh8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60')"}}>
+
+            </div>
+            <div className="col-lg-6 order-lg-1 my-auto px-5 py-5">
+                <div className="lc-block">
+                    <div editable="rich">
+                        <h1>Find Your Learning Path</h1>
+                        <p className="lead">Navigate a curated directory of the best academies and institutions that offer training in Karnataka's artistic traditions. Whether you're seeking a dance guru or a vocal maestro, our platform aids you in finding the perfect place to nurture your skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
 </>);
 }
