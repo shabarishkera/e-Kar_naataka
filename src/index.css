@@ -188,3 +188,14 @@ backdrop-filter: blur(0px) saturate(102%);
             {
                background-image: url('https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
             }
+            .assist-wrap
+            {
+              background-color: rgba(255, 2,9,0.5);
+              width: 30px;
+              height: 100px;
+              position: fixed;
+              right:5px;
+              top:50%;
+              translate: transform(-50%);
+
+            }

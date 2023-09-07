@@ -1,8 +1,9 @@
+import Assistant from '../components/Assistant'
 export default function DolluKunitha(argument) {
 
 	return(
 	<>
-
+<Assistant/>
    <div class="container">
     <div class="row mb-4 align-items-center">
         <div class="col-lg-6 mb-4 mb-lg-0">
