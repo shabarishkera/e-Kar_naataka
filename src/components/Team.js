@@ -47,7 +47,7 @@ export default function Team(argument) {
                 </div>
                 <div className="lc-block mt-2 border-top">
                     <div editable="rich">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit amet quis enim. Aliquam erat volutpat.</p>
+                        <p>Finally we embarked on creating an exploration-focused websie</p>
                     </div>
                 </div>
                 <div className="lc-block"><a className="text-dark text-decoration-none" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="1em" height="1em" lc-helper="svg-icon" fill="currentColor">
