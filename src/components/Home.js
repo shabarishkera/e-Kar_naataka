@@ -9,6 +9,7 @@ export default function  Home(argument) {
 	return (
 		<>
 		<Hero/>
+		  
 		<Features/>
 		<Team/>
 		

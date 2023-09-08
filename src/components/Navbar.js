@@ -1,4 +1,5 @@
 import {Link } from 'react-router-dom'
+import {Helmet} from 'react-helmet';
 export default function Navbar()
 {
 return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
@@ -26,6 +27,7 @@ return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
       <li className="nav-item">
         <Link  className="nav-link" to="/myLearning">My Learning</Link>
       </li>
+     
 
      
     </ul>
@@ -33,7 +35,7 @@ return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
   </div>
   
        <button className="btn btn-outline-warning my-2 my-sm-0 mx-2 " type="submit">Login/Signup</button>
-     
+     <div  id="google_translate_element"></div>
    
     
 </nav></>);

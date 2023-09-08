@@ -1,8 +1,33 @@
-import Assistant from '../components/Assistant'
+import {useState,useEffect} from 'react';
 export default function Veeragase(argument) {
+var temp;
+        const [text,settext]=useState([]);
+      useEffect(()=>{
+    const content=document.getElementsByClassName("artform-content");
+
+   temp=[];
+    for(let item  of content)
+        temp.push(item.textContent);
+  
+    settext(temp);
+    
+}
+
+
+    ,[]
+    );
+    
+      const changelanguage=async()=>
+      {
+       var  result=await   fetch(`https://api.mymemory.translated.net/get?q=${text[0]}&langpair=en|kn`)
+     
+       console.log(await result.json());
+
+      }
+      changelanguage();
 	
 	return (<>
-        <Assistant/>
+        
 		<div class="container">
     <div class="row mb-4 align-items-center">
         <div class="col-lg-6 mb-4 mb-lg-0">
@@ -14,7 +39,7 @@ export default function Veeragase(argument) {
             <div class="lc-block mb-5">
                 <div editable="rich">
                     <h2 class="display-6 fw-bold">VEERAGAASE</h2>
-                    <p class="lead"><br/>Veeragase/Guggla is a dance form prevalent in the state of Karnataka, India. It is a vigorous dance based on Hindu mythology and involves very intense energy-sapping dance movements performed by Jangama. Veeragase is one of the dances demonstrated in the Dasara procession held in Mysore. This dance is performed during festivals and mainly in the Hindu months of Shravana and Karthika. It is performed at all important functions of Veerashaiva Lingayat household the veeragase artist's are called as puravanta in village side.
+                    <p class="lead artform-content"><br/>Veeragase/Guggla is a dance form prevalent in the state of Karnataka, India. It is a vigorous dance based on Hindu mythology and involves very intense energy-sapping dance movements performed by Jangama. Veeragase is one of the dances demonstrated in the Dasara procession held in Mysore. This dance is performed during festivals and mainly in the Hindu months of Shravana and Karthika. It is performed at all important functions of Veerashaiva Lingayat household the veeragase artist's are called as puravanta in village side.
                     </p>
                 </div>
             </div>
@@ -26,7 +51,7 @@ export default function Veeragase(argument) {
                         </svg>
                     </div>
                     <div class="ms-3 align-self-center" editable="rich">
-                        <p>Veerashaivism and Veeragaase/Guggla The basic tenets of Guggla are drawn from Veeragama (One of the 28 key Shaiva Agamas) and usually Veeragaase performers during their acts will convey some stories from the main six Shaiva puranas like Shiva/Linga/Skanda/Agni/Matsya/Kurma - Puranas, and some Kannada Veerashaiva puranas like Girija Kalyana/Prabhulingaleele/Basava purana/Chennabasaveshwara charite...etc. Most popularly conveyed story is of Daksha-yajna. The custom of bringing Devagange (Gange taruvud - ಗಂಗೆ ತರುವುದು/Devaru taruvudu - ದೇವರು ತರುವುದು) into homes from nearby water-sources (usually from wells) is a tradition in veerashaivaLingayat household for every important functions held (like Marriage, House-warming, Naming, Lingadhaarana ...etc.), some Vokkaligas in Karnataka also perform this custom - in this custom Veerabhadra is taken to please mother Ganga, Veeragaase is performed while bringing her home - in Veeraagama Ganga is considered to be the mother of Veerabhadra as he was sprouted out of Shiva's hairs and Ganga has taken residence on Shiva's head.</p>
+                        <p className="artform-content">Veerashaivism and Veeragaase/Guggla The basic tenets of Guggla are drawn from Veeragama (One of the 28 key Shaiva Agamas) and usually Veeragaase performers during their acts will convey some stories from the main six Shaiva puranas like Shiva/Linga/Skanda/Agni/Matsya/Kurma - Puranas, and some Kannada Veerashaiva puranas like Girija Kalyana/Prabhulingaleele/Basava purana/Chennabasaveshwara charite...etc. Most popularly conveyed story is of Daksha-yajna. The custom of bringing Devagange (Gange taruvud - ಗಂಗೆ ತರುವುದು/Devaru taruvudu - ದೇವರು ತರುವುದು) into homes from nearby water-sources (usually from wells) is a tradition in veerashaivaLingayat household for every important functions held (like Marriage, House-warming, Naming, Lingadhaarana ...etc.), some Vokkaligas in Karnataka also perform this custom - in this custom Veerabhadra is taken to please mother Ganga, Veeragaase is performed while bringing her home - in Veeraagama Ganga is considered to be the mother of Veerabhadra as he was sprouted out of Shiva's hairs and Ganga has taken residence on Shiva's head.</p>
                     </div>
                 </div>
             </div>
