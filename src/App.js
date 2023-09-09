@@ -13,12 +13,15 @@ import Learn from './components/Learn'
 import Veeragase from './artforms/Veeragase'
 import GanapadaGeethe from './artforms/GanapadaGeethe'
 import Kamsale from './artforms/Kamsale'
+import TigerDance from './artforms/TigerDance';
 import {
   BrowserRouter as Router,
   Route,
   Routes,
 } from "react-router-dom";
 import Home from './components/Home'
+import BharathNatyam from './artforms/BharathNatyam'
+import Veena from './artforms/Veena'
 
 function App() {
   return (
@@ -36,8 +39,11 @@ function App() {
            <Route  exact  path='history/dolluKunitha' element={<DolluKunitha/>} />
             <Route  exact  path='history/veeragase' element={<Veeragase/>} />
              <Route  exact  path='history/kamsale' element={<Kamsale/>} />
+                <Route  exact  path='history/tigerDance' element={<TigerDance/>} />
+                 <Route  exact  path='history/bharathnatyam' element={<BharathNatyam/>} />
 
-            <Route  exact  path='history/ganapadageethe' element={<GanapadaGeethe/>} />
+                  <Route  exact  path='history/veena' element={<Veena/>} />
+            <Route  exact  path='history/ganapadaGeethe' element={<GanapadaGeethe/>} />
             <Route  exact  path='explore/learn' element={<Learn/>} />
              <Route  exact  path='myLearning' element={<MyLearning/>} />
       <Route path='*' element={<Error />} />

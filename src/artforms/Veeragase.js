@@ -46,9 +46,7 @@ var temp;
             <div class="lc-block">
                 <div class="d-inline-flex">
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="text-primary" viewBox="0 0 16 16" lc-helper="svg-icon">
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                        </svg>
+                       
                     </div>
                     <div class="ms-3 align-self-center" editable="rich">
                         <p className="artform-content">Veerashaivism and Veeragaase/Guggla The basic tenets of Guggla are drawn from Veeragama (One of the 28 key Shaiva Agamas) and usually Veeragaase performers during their acts will convey some stories from the main six Shaiva puranas like Shiva/Linga/Skanda/Agni/Matsya/Kurma - Puranas, and some Kannada Veerashaiva puranas like Girija Kalyana/Prabhulingaleele/Basava purana/Chennabasaveshwara charite...etc. Most popularly conveyed story is of Daksha-yajna. The custom of bringing Devagange (Gange taruvud - ಗಂಗೆ ತರುವುದು/Devaru taruvudu - ದೇವರು ತರುವುದು) into homes from nearby water-sources (usually from wells) is a tradition in veerashaivaLingayat household for every important functions held (like Marriage, House-warming, Naming, Lingadhaarana ...etc.), some Vokkaligas in Karnataka also perform this custom - in this custom Veerabhadra is taken to please mother Ganga, Veeragaase is performed while bringing her home - in Veeraagama Ganga is considered to be the mother of Veerabhadra as he was sprouted out of Shiva's hairs and Ganga has taken residence on Shiva's head.</p>
@@ -58,9 +56,7 @@ var temp;
             <div class="lc-block">
                 <div class="d-inline-flex">
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="text-primary" viewBox="0 0 16 16" lc-helper="svg-icon">
-                         
-                        </svg>
+                        
                     </div>
                     <div class="ms-3 align-self-center" editable="rich">
                      
@@ -70,9 +66,7 @@ var temp;
             <div class="lc-block">
                 <div class="d-inline-flex">
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="text-primary" viewBox="0 0 16 16" lc-helper="svg-icon">
-                            
-                        </svg>
+                       
                     </div>
                     <div class="ms-3 align-self-center" editable="rich">
                      
@@ -96,9 +90,7 @@ var temp;
             <div class="lc-block">
                 <div class="d-inline-flex">
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="text-primary" viewBox="0 0 16 16" lc-helper="svg-icon">
-                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                        </svg>
+                        
                     </div>
                     <div class="ms-3 align-self-center" editable="rich">
                        
@@ -107,28 +99,9 @@ var temp;
                     </div>
                 </div>
             </div>
-            <div class="lc-block">
-                <div class="d-inline-flex">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="text-primary" viewBox="0 0 16 16" lc-helper="svg-icon">
-                           
-                        </svg>
-                    </div>
-                   
-                </div>
+          
             </div>
-            <div class="lc-block">
-                <div class="d-inline-flex">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="text-primary"> 
-                        </svg>
-                    </div>
-                    <div class="ms-3 align-self-center" editable="rich">
-                      
-                    </div>
-                </div>
-            </div>
-        </div>
+           
     </div>
 </div>
 

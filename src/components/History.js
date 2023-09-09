@@ -54,7 +54,7 @@ export default function History(argument) {
        
          
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-         <Link to=" " className="text-decoration-none">
+         <Link to="/history/tigerDance" className="text-decoration-none">
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -84,7 +84,7 @@ export default function History(argument) {
        
          
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-        <Link to="/" className="text-decoration-none" >
+        <Link to="/history/bharathnatyam" className="text-decoration-none" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -130,7 +130,7 @@ export default function History(argument) {
 
 
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-          <Link to="/history/ganapadaGeethe" className="text-decoration-none" >
+          <Link to="./ganapadaGeethe" className="text-decoration-none" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -143,6 +143,20 @@ export default function History(argument) {
               </Link>
         </div>
 
+
+        <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
+          <Link to="/history/veena" className="text-decoration-none" >
+            <div className="timeline-img"></div>
+            <div className="timeline-content">
+                <p editable="inline" className="lead"></p>
+                <h2 editable="inline" className="fw-bold rfs-12">Veena</h2>
+                <img className="img-fluid" src={require("../assets/img/sv3.png")}  />
+                <div editable="rich">
+                    <p>Saraswati veena is an ancient Indian plucked veena. It is named after the Hindu goddess Saraswati, who is usually depicted holding or playing the instrument.  </p>
+                </div>
+            </div>
+              </Link>
+        </div>
 
 
       
