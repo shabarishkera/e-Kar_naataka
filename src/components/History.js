@@ -69,7 +69,7 @@ export default function History(argument) {
      
           
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-        <Link to="/" className="text-decoration-none" >
+        <Link to="/history/kamsale" className="text-decoration-none" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -126,6 +126,25 @@ export default function History(argument) {
             </div>
               </Link>
         </div>
+
+
+
+        <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
+          <Link to="/history/ganapadaGeethe" className="text-decoration-none" >
+            <div className="timeline-img"></div>
+            <div className="timeline-content">
+                <p editable="inline" className="lead"></p>
+                <h2 editable="inline" className="fw-bold rfs-12">Janapada Geethe</h2>
+                <img className="img-fluid" src="https://gostops.com/blog/wp-content/uploads/2017/07/folk-music-1.jpg"  />
+                <div editable="rich">
+                    <p>jaanapada geethes are a part of Indian folk music, sung in rural regions since ancient times. These songs are performed either solo or in groups and reflect various aspects of the lives of Indian people, including daily routines, agricultural work, nature, and social and cultural traditions. </p>
+                </div>
+            </div>
+              </Link>
+        </div>
+
+
+
       
     </div>
     </>

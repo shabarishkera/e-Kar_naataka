@@ -199,14 +199,23 @@ backdrop-filter: blur(0px) saturate(102%);
               translate: transform(-50%);
 
             }
-            #google_translate_element
+            #google_translate_element 
             {
 display: inline;
 height: 29px;
 z-index: 9999999;
+color: black;
 
 
             }
+               #google_translate_element *
+            {
+
+color: black;
+
+
+            }
+
            /* .translated-ltr
             {
               margin-top: -40px;

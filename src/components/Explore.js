@@ -57,7 +57,13 @@ export default function  Explore(argument) {
 <Tutorial/>
 
     
-<Videos keyword='artforms of karnataka'/>
+
+     <div class="lc-block mb-4">
+            <div editable="rich">
+                <h2 class="display-2 fw-bold">Our <span class="text-primary">Suggesions</span></h2>
+            </div>
+        </div>
+<Videos keyword='artforms of karnataka tutorials'/>
 
 
     </>);
