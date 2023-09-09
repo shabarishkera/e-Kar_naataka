@@ -9,6 +9,7 @@ import NetworkError from './components/NetworkError'
 import Footer from './components/Footer'
 import MyLearning from './components/MyLearning'
 import DolluKunitha from './artforms/DolluKunitha'
+import Learn from './components/Learn'
 import Veeragase from './artforms/Veeragase'
 import {
   BrowserRouter as Router,
@@ -32,6 +33,7 @@ function App() {
            <Route  exact  path='networkError' element={<NetworkError/>} />
            <Route  exact  path='history/dolluKunitha' element={<DolluKunitha/>} />
             <Route  exact  path='history/veeragase' element={<Veeragase/>} />
+            <Route  exact  path='explore/learn' element={<Learn/>} />
              <Route  exact  path='myLearning' element={<MyLearning/>} />
       <Route path='*' element={<Error />} />
     

@@ -1,4 +1,5 @@
 import Videos from './Videos'
+import Tutorial from './Tutorial'
 export default function  Explore(argument) {
 	return (
 	<>
@@ -53,7 +54,7 @@ export default function  Explore(argument) {
         </div>
     </div>
 
-
+<Tutorial/>
 
     
 <Videos keyword='artforms of karnataka'/>

@@ -199,7 +199,7 @@ backdrop-filter: blur(0px) saturate(102%);
               translate: transform(-50%);
 
             }
-            #google_element
+            #google_translate_element
             {
 display: inline;
 height: 29px;
@@ -207,14 +207,14 @@ z-index: 9999999;
 
 
             }
-            .translated-ltr
+           /* .translated-ltr
             {
               margin-top: -40px;
             }
             .translated-ltr
             {
               margin-top: -40px;
-            }
+            }*/
             .goog-te-banner-frame
             {
               display: none;
