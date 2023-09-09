@@ -1,19 +1,33 @@
 {
   "files": {
-    "main.css": "/e-Kar_naataka/static/css/main.eac598a6.css",
-    "main.js": "/e-Kar_naataka/static/js/main.6ff5867b.js",
+    "main.css": "/e-Kar_naataka/static/css/main.13d38706.css",
+    "main.js": "/e-Kar_naataka/static/js/main.dbfc6b6c.js",
     "static/js/787.87720c37.chunk.js": "/e-Kar_naataka/static/js/787.87720c37.chunk.js",
     "static/media/intro.mp4": "/e-Kar_naataka/static/media/intro.7f0496341fe83b8fc533.mp4",
+    "static/media/barathnatya2.jpg": "/e-Kar_naataka/static/media/barathnatya2.b87389a69590aa2c78af.jpg",
+    "static/media/11.jpg": "/e-Kar_naataka/static/media/11.b29c4eb745a09d12bd3b.jpg",
+    "static/media/16.jpg": "/e-Kar_naataka/static/media/16.21eddbc90b074f1126f9.jpg",
+    "static/media/barathnatya.jpg": "/e-Kar_naataka/static/media/barathnatya.473a1f3e43ec179d087f.jpg",
+    "static/media/sv1.jpg": "/e-Kar_naataka/static/media/sv1.4dcfda78f1597d2049e4.jpg",
+    "static/media/12.jpg": "/e-Kar_naataka/static/media/12.ff572475c69c44daffa9.jpg",
     "static/media/bootstrap-icons.woff?": "/e-Kar_naataka/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/sv2": "/e-Kar_naataka/static/media/sv2.fde6d2fd3b675fb0d083",
     "static/media/bootstrap-icons.woff2?": "/e-Kar_naataka/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/bharathanatyam[332].jpg": "/e-Kar_naataka/static/media/bharathanatyam[332].9a6e3d59f1ff981ed262.jpg",
+    "static/media/sv3.png": "/e-Kar_naataka/static/media/sv3.55ab01886fe19dd805e6.png",
+    "static/media/17.jpg": "/e-Kar_naataka/static/media/17.6bbeae7df1ef57b7a02c.jpg",
+    "static/media/icomoon.svg?3hi6ws": "/e-Kar_naataka/static/media/icomoon.3a7fa809a51519dc2b03.svg",
     "static/media/logo.svg": "/e-Kar_naataka/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/icomoon.eot?3hi6ws": "/e-Kar_naataka/static/media/icomoon.64e772f6edbe9be65c8a.eot",
+    "static/media/icomoon.woff?3hi6ws": "/e-Kar_naataka/static/media/icomoon.5fc82f90bc4c43c91336.woff",
+    "static/media/icomoon.ttf?3hi6ws": "/e-Kar_naataka/static/media/icomoon.192159f9845d83d2d7ea.ttf",
     "index.html": "/e-Kar_naataka/index.html",
-    "main.eac598a6.css.map": "/e-Kar_naataka/static/css/main.eac598a6.css.map",
-    "main.6ff5867b.js.map": "/e-Kar_naataka/static/js/main.6ff5867b.js.map",
+    "main.13d38706.css.map": "/e-Kar_naataka/static/css/main.13d38706.css.map",
+    "main.dbfc6b6c.js.map": "/e-Kar_naataka/static/js/main.dbfc6b6c.js.map",
     "787.87720c37.chunk.js.map": "/e-Kar_naataka/static/js/787.87720c37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eac598a6.css",
-    "static/js/main.6ff5867b.js"
+    "static/css/main.13d38706.css",
+    "static/js/main.dbfc6b6c.js"
   ]
 }
