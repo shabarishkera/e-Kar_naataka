@@ -19,7 +19,7 @@ export default function Tutorials(argument) {
 
 
 
-			<div className="row">
+			<div className="row justify-content-center">
 			<div class="card shadow    col-md-3 mx-5 my-5">
                         <div class="card-body">
                             <div class="lc-block">

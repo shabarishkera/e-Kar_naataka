@@ -62,7 +62,7 @@ setRecomend(false);
         <div className="row mb-4">
             <div className="lc-block text-center">
                 <div editable="rich">
-                    <h2 className="fw-bold display-2">{isRecomend?'Our suggestions':'Search results'}</h2>
+                    <h2 className="fw-bold display-2 text-danger">{isRecomend?'Our suggestions':'Search results'}</h2>
                 </div>
             </div>
             <div className="lc-block text-center">
