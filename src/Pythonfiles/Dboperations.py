@@ -6,8 +6,19 @@ collection = db.users;
 
 
 def addUser(name,email,password):
+	existing_user = collection.find_one({"email": email})
+	if existing_user:
+		return "404"
 	inserted_document = collection.insert_one({'name':name,'email':email,'password':password})
-	return 'ok'
+	return str(inserted_document.inserted_id)
+	
+def checkUser(email,password):
+	existing_user = collection.find_one({"email": email,"password":password})
+	if  not existing_user:
+		return "404"
+	user_id = str(existing_user["_id"])
+	return user_id
+
 
 
 

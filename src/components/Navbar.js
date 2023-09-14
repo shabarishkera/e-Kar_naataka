@@ -1,11 +1,11 @@
-import {Link } from 'react-router-dom'
+import {Link ,useNavigate} from 'react-router-dom'
 import {Helmet} from 'react-helmet';
 import {useState } from 'react'
 export default function Navbar()
 {
   const [isLogged,setLogged]=useState(localStorage.getItem('token')?true:false)
 
-
+const nav=useNavigate();
 const handleLogout=()=>{
 localStorage.removeItem('token');
 setLogged(false)
@@ -13,19 +13,7 @@ setLogged(false)
 }
 
 const handleLogin=async()=>{
-  const data={name:"jack",email:'www.google.com',password:'secret'}
-const headers = {
-  'Content-Type': 'application/json', // Specify the content type as JSON
-  // Add any other headers as needed
-};
-var res=await fetch('http://127.0.0.1:5000/createUser', {
-  method: 'POST',          // Specify the HTTP method
-  headers: headers,        // Pass the headers object
-  body: JSON.stringify(data) // Convert the data to JSON format
-})
-const token=await res.text();
-localStorage.setItem('token',token)
-setLogged(true)
+ nav("/login");
 
   }
 return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
@@ -60,7 +48,7 @@ return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
 
   </div>
   
-       <button className="btn btn-outline-warning my-2 my-sm-0 mx-2 " type="submit" onClick={isLogged?handleLogout:handleLogin}>{isLogged?'Logout':'Login'}</button>
+       <button className="btn btn-outline-warning my-2 my-sm-0 mx-2 " type="submit" onClick={localStorage.getItem('token')?handleLogout:handleLogin}>{localStorage.getItem('token')?'Logout':'Login'}</button>
      <div  id="google_translate_element"></div>
    
     
