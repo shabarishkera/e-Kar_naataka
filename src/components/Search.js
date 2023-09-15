@@ -6,9 +6,30 @@ const input=useRef();
 
 const [keyword,setkeyword]=useState('artforms of karnataka');
 const [isRecomend,setRecomend]=useState(true);
- const handleSearch=()=>{
+ const handleSearch=async()=>{
 
- setkeyword(input.current.value);
+
+ const data={keyword:input.current.value}
+const headers = {
+  'Content-Type': 'application/json', // Specify the content type as JSON
+
+};
+var res=await fetch('http://127.0.0.1:5000/search', {
+  method: 'POST',          // Specify the HTTP method
+  headers: headers,        // Pass the headers object
+  body: JSON.stringify(data) // Convert the data to JSON format
+})
+const word=await res.text();
+console.log(word);
+
+if(word=="invalid")
+{
+    alert('keyword not found or permited');
+    return ;
+}
+
+
+ setkeyword(word);
 setRecomend(false);
 
  	 }

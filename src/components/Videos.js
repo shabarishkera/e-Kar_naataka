@@ -26,7 +26,7 @@ return (<>
 
 <div className='row align-items-center justify-content-center'>
      {data.map((element)=>{
-            console.log(element)
+           
           	var videosrc="https://www.youtube.com/embed/"+element.id.videoId;
            return (<>
          

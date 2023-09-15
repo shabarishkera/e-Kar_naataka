@@ -1,7 +1,8 @@
 from flask import Flask,request
 from flask_cors import CORS,cross_origin 
 from Dboperations import addUser
-from Dboperations import checkUser
+from Dboperations import checkUser,find_most_matching_keyword
+
 app = Flask(__name__)
 CORS(app)
 # Define a route for the root URL ("/")
@@ -18,6 +19,12 @@ def createUser():
     #connect to mongodb databse and create a new user 
     obj=request.json
     data=addUser(obj['name'],obj['email'],obj['password'])
+    return data
+
+@app.route('/search',methods=['POST'])
+def search():
+    obj=request.json;
+    data=find_most_matching_keyword(obj['keyword'])
     return data
 
 # Define yet another route ("/custom/<name>")
