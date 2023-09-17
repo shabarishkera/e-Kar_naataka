@@ -1,7 +1,7 @@
 from flask import Flask,request
 from flask_cors import CORS,cross_origin 
 from Dboperations import addUser
-from Dboperations import checkUser,find_most_matching_keyword,update_or_insert_keyword
+from Dboperations import checkUser,find_most_matching_keyword,update_or_insert_keyword,get_user_keywords
 
 app = Flask(__name__)
 CORS(app)
@@ -31,9 +31,13 @@ def search():
 @app.route('/addToSearch',methods=['POST'])
 def addtoSearch():
     obj=request.json
-    print(obj)
     data=update_or_insert_keyword(obj['id'],obj['keyword'])
     return data
+@app.route('/getHistory',methods=['POST'])
+def  getHistory():
+    obj=request.json;
+    data=get_user_keywords(obj['id'])
+    return data;
 
 
 # Define yet another route ("/custom/<name>")

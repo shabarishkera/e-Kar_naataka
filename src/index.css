@@ -256,7 +256,7 @@ color:white;
 .timeline
 {
 
-  background-color: rgba(200, 200, 200,.093);
+  background-color: rgba(0, 0, 0,.10);
   background-filter:blur(30px);
   color: black 
 }

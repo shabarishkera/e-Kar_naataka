@@ -1,3 +1,4 @@
+import pymongo
 from pymongo import MongoClient
 import json
 from fuzzywuzzy import fuzz

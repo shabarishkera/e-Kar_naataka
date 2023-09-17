@@ -22,7 +22,7 @@ export default function Team(argument) {
                 </div>
                 <div className="lc-block mt-2 border-top">
                     <div editable="rich">
-                        <p> "We had a ton of fun working with this project ans i am really exited about our future improvements "</p>
+                        <p> "We had a ton of fun working with this project and i am really exited about our future enhancements "</p>
                     </div>
                 </div>
                 <div className="lc-block"><a className="text-dark text-decoration-none bi-envelope mx-2" href="#">  </a>
@@ -55,7 +55,7 @@ export default function Team(argument) {
                 </div>
                 <div className="lc-block mt-2 border-top">
                     <div editable="rich">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id ligula malesuada placerat sit amet quis enim. Aliquam erat volutpat.</p>
+                        <p> Every great project starts with a vision, a plan, and the courage to begin.</p>
                     </div>
                 </div>
                 <div className="lc-block"><a className="text-dark text-decoration-none bi-envelope mx-2" href="#">  </a>
