@@ -4,6 +4,7 @@ from fuzzywuzzy import fuzz
 client = MongoClient("mongodb://localhost:27017/")
 db = client.ekarnataka
 collection = db.users;
+history=db.user_history
 
 
 def addUser(name,email,password):
@@ -39,6 +40,27 @@ def find_most_matching_keyword(word):
      return best_match
     else:
      return "invalid"
+def update_or_insert_keyword(user_id,keyword):
+    # Use the user_id to select the user's collection
+    user_collection = db[f"history{user_id}"]
+
+    # Search for the keyword in the user's collection
+    existing_keyword = user_collection.find_one({"keyword": keyword})
+    
+    if existing_keyword:
+        # If keyword exists, increment its count
+        new_count = existing_keyword["count"] + 1
+        user_collection.update_one({"_id": existing_keyword["_id"]}, {"$set": {"count": new_count}})
+        print(f"Updated count for '{keyword}' to {new_count}")
+    else:
+        # If keyword doesn't exist, add a new entry
+        keyword_entry = {"keyword": keyword, "count": 1}
+        user_collection.insert_one(keyword_entry)
+        print(f"Added new keyword '{keyword}' with count 1")
+    return "200"
+
+	
+
 
 
 

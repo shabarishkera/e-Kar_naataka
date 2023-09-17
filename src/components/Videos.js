@@ -22,17 +22,20 @@ useEffect(() => {
 
     fetchYoutube();
   }, [keyword]);
+
+
 return (<>
 
 <div className='row align-items-center justify-content-center'>
      {data.map((element)=>{
            
           	var videosrc="https://www.youtube.com/embed/"+element.id.videoId;
+       
            return (<>
          
                         <div class="card col-md-3 mx-5 my-5 shadow" >
    
-  <iframe className="embed-responsive-item"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""  src={videosrc}></iframe>
+  <iframe className="embed-responsive-item" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""  src={videosrc}></iframe>
 
   <div class="card-body">
     <h5 class="card-title">{element.snippet.title}</h5>

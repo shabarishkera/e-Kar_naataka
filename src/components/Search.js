@@ -8,12 +8,18 @@ const [keyword,setkeyword]=useState('artforms of karnataka');
 const [isRecomend,setRecomend]=useState(true);
  const handleSearch=async()=>{
 
+if(!localStorage.getItem('token'))
+{
+alert('you are not logged in . Please log in first')
+return ;
+}
 
- const data={keyword:input.current.value}
+ var data={keyword:input.current.value}
 const headers = {
   'Content-Type': 'application/json', // Specify the content type as JSON
 
 };
+try{
 var res=await fetch('http://127.0.0.1:5000/search', {
   method: 'POST',          // Specify the HTTP method
   headers: headers,        // Pass the headers object
@@ -27,11 +33,26 @@ if(word=="invalid")
     alert('keyword not found or permited');
     return ;
 }
+data={keyword:word,'id':localStorage.getItem('token')}
 
 
+//add the searched keyword to list of keyword.......
+
+ var res2=await fetch('http://127.0.0.1:5000/addToSearch', {
+  method: 'POST',          // Specify the HTTP method
+  headers: headers,        // Pass the headers object
+  body: JSON.stringify(data) // Convert the data to JSON format
+})
+    res2=await res2.text();
+    console.log(res2)
  setkeyword(word);
 setRecomend(false);
+}
+catch (error)
+{
+console.log("error while connecting ot db")
 
+}
  	 }
 
 
