@@ -238,5 +238,31 @@ color: black;
               color:transparent !important;
             }
 
+.learing-header-img
+{
 
-          
+max-height:700px !important;
+object-fit: cover;
+
+}
+.lc-block h3
+{
+color: white;
+}   
+
+.learing-header{
+color:white;
+}
+.timeline
+{
+
+  background-color: rgba(200, 200, 200,.093);
+  background-filter:blur(30px);
+  color: black 
+}
+.history-link
+{
+
+text-decoration: none !important;
+  color: black ;
+}

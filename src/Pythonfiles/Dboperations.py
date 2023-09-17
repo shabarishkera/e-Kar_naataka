@@ -59,6 +59,17 @@ def update_or_insert_keyword(user_id,keyword):
         print(f"Added new keyword '{keyword}' with count 1")
     return "200"
 
+def get_user_keywords(user_id):
+    # Use the user_id to select the user's collection
+    user_collection = db[f"history{user_id}"]
+
+    # Query the user's collection to get all keywords with counts and sort by count in descending order
+    keywords = user_collection.find({}, {"_id": 0, "keyword": 1, "count": 1}).sort("count", pymongo.DESCENDING)
+
+    # Extract the keywords and counts from the cursor into a list of dictionaries
+    keyword_list = [{"keyword": keyword["keyword"], "count": keyword["count"]} for keyword in keywords]
+
+    return keyword_list
 	
 
 

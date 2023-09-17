@@ -36,10 +36,10 @@ export default function History(argument) {
     </div>
 
 
- <div className="container py-5 timeline position-relative">
+ <div className="container py-5 timeline position-relative ">
        
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-        <Link to=" " className="text-decoration-none">
+        <Link to=" " className="text-decoration-none history-link">
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -54,7 +54,7 @@ export default function History(argument) {
        
          
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-         <Link to="/history/tigerDance" className="text-decoration-none">
+         <Link to="/history/tigerDance" className="text-decoration-none history-link">
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -69,7 +69,7 @@ export default function History(argument) {
      
           
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-        <Link to="/history/kamsale" className="text-decoration-none" >
+        <Link to="/history/kamsale" className="text-decoration-none history-link" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -84,7 +84,7 @@ export default function History(argument) {
        
          
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-        <Link to="/history/bharathnatyam" className="text-decoration-none" >
+        <Link to="/history/bharathnatyam" className="text-decoration-none history-link" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -99,7 +99,7 @@ export default function History(argument) {
         
       
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-          <Link to="/history/veeragase" className="text-decoration-none" >
+          <Link to="/history/veeragase" className="text-decoration-none history-link" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -114,7 +114,7 @@ export default function History(argument) {
         
        
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-          <Link to="/history/dolluKunitha" className="text-decoration-none" >
+          <Link to="/history/dolluKunitha" className="text-decoration-none history-link" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -130,7 +130,7 @@ export default function History(argument) {
 
 
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-          <Link to="./ganapadaGeethe" className="text-decoration-none" >
+          <Link to="./ganapadaGeethe" className="text-decoration-none history-link" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>
@@ -145,7 +145,7 @@ export default function History(argument) {
 
 
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-          <Link to="/history/veena" className="text-decoration-none" >
+          <Link to="/history/veena" className="text-decoration-none history-link" >
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>

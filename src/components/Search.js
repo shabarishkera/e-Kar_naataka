@@ -51,7 +51,6 @@ setRecomend(false);
 catch (error)
 {
 console.log("error while connecting ot db")
-
 }
  	 }
 

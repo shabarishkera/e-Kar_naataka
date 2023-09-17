@@ -1,5 +1,6 @@
 import Videos from './Videos'
 import Tutorial from './Tutorial'
+import TeamParticipation from './TeamParticipation'
 export default function  Explore(argument) {
 	return (
 	<>
@@ -20,7 +21,7 @@ export default function  Explore(argument) {
             </div>
         </div>
     </div>
-
+<TeamParticipation/>
     
      <div className="container" style={{paddingTop: '10vh',paddingBottom:'10vh'}}>
         <div className="row align-items-center px-2">
