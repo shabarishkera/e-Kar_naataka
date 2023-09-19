@@ -41,14 +41,16 @@ return (<><nav className="navbar navbar-expand-lg navbar-dark bg-dark z-3">
       <li className="nav-item">
         <Link  className="nav-link" to="/myLearning">My Learning</Link>
       </li>
-     
+     <li className="nav-item">
+     <button className="btn btn-outline-warning my-2 my-sm-0 mx-2 log-in-out-btn " type="submit" onClick={localStorage.getItem('token')?handleLogout:handleLogin}>{localStorage.getItem('token')?'Logout':'Login'}</button>
+     </li>
 
      
     </ul>
 
   </div>
   
-       <button className="btn btn-outline-warning my-2 my-sm-0 mx-2 " type="submit" onClick={localStorage.getItem('token')?handleLogout:handleLogin}>{localStorage.getItem('token')?'Logout':'Login'}</button>
+       
      <div  id="google_translate_element"></div>
    
     
