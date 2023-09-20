@@ -1,10 +1,11 @@
 import LearningHeader from './LearningHeader';
-import WatchedVideo from './WatchedVideo';
+import React, { lazy, Suspense } from 'react';
+
 import { useState, useEffect } from 'react';
 import NotLogged from './NotLogged'
 export default function LearningHistory() {
   const [keywords, setKeywords] = useState([]);
-
+const WatchedVideo = lazy(() => import('./WatchedVideo'));
   useEffect(() => {
   
   	 try {
@@ -51,7 +52,7 @@ const token=await res.text();
       {keywords.map((element) => {
 
         // Render your elements here based on keywords
-        return ( <WatchedVideo keyword={element.keyword} key={element.keyword} />);
+        return ( <Suspense fallback={<div>Loading...</div>}> <WatchedVideo keyword={element.keyword} key={element.keyword} /></Suspense>);
       })}
     </>
   );

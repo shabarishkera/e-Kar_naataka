@@ -1,6 +1,6 @@
-
+import React, { lazy, Suspense } from 'react';
 import {useRef,useState,useEffect} from 'react';
-import Videos from './Videos'
+const Videos = lazy(() => import('./Videos'));
 export default function Search(argument) {
 const input=useRef();
 
@@ -111,7 +111,10 @@ console.log("error while connecting ot db")
             </div>
         </div>
     </div>
-    <Videos keyword={keyword}/>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Videos keyword={keyword}/>
+</Suspense>
+    
 
 		</>)
 }
