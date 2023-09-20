@@ -182,11 +182,14 @@ backdrop-filter: blur(0px) saturate(102%);
 
             .feature_bg-1
             {
-               background-image: url('https://images.unsplash.com/photo-1528569937393-ee892b976859?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFzdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
+               background-image: url('https://e1.pxfuel.com/desktop-wallpaper/184/690/desktop-wallpaper-sudhanarjuna-yakshagana-by-dheemgina-yakshagana.jpg');
+               filter: grayscale(100%);
             }
             .feature_bg-2
             {
-               background-image: url('https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+               background-image: url('https://e1.pxfuel.com/desktop-wallpaper/704/342/desktop-wallpaper-flitto-content-yakshagana.jpg');
+
+
             }
             .assist-wrap
             {

@@ -39,7 +39,7 @@ export default function History(argument) {
  <div className="container py-5 timeline position-relative ">
        
         <div className="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-        <Link to=" " className="text-decoration-none history-link">
+        <Link to="yakshagana" className="text-decoration-none history-link">
             <div className="timeline-img"></div>
             <div className="timeline-content">
                 <p editable="inline" className="lead"></p>

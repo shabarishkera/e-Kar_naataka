@@ -6,6 +6,9 @@ from Dboperations import checkUser,find_most_matching_keyword,update_or_insert_k
 app = Flask(__name__)
 CORS(app)
 # Define a route for the root URL ("/")
+@app.route('/')
+def home():
+    return "hello world"
 @app.route('/loginUser',methods=['POST'])
 @cross_origin()
 def loginUser():

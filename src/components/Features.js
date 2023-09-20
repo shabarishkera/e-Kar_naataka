@@ -42,7 +42,7 @@ export default function Features(argument) {
             </div>
         </div>
        <div className="row g-0 my-5">
-            <div lc-helper="background" className="col-lg-6 order-lg-2  feature_bg-1" style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60')"}}>
+            <div lc-helper="background" className="col-lg-6 order-lg-2  feature_" style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://images.unsplash.com/photo-1692293394002-63069eabffb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8eWFrc2hhZ2FuYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60')"}}>
 
             </div>
             <div className="col-lg-6 order-lg-1 my-auto px-5 py-5">
@@ -57,7 +57,7 @@ export default function Features(argument) {
         </div>
 
 <div className="row g-0 my-5">
-           <div lc-helper="background" className="col-lg-6 feature_bg-2 " style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://images.unsplash.com/photo-1512238972088-8acb84db0771?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1lbnRvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60')"}}>
+           <div lc-helper="background" className="col-lg-6 feature_ " style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://e1.pxfuel.com/desktop-wallpaper/282/943/desktop-wallpaper-yakshagana.jpg')"}}>
 
             </div>
             <div className="col-lg-6 my-auto px-5 py-5">
@@ -72,7 +72,7 @@ export default function Features(argument) {
         </div>
 
           <div className="row g-0">
-            <div lc-helper="background" className="col-lg-6 order-lg-2  feature_bg-1" style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://images.unsplash.com/photo-1471958680802-1345a694ba6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhdGh8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60')"}}>
+            <div lc-helper="background" className="col-lg-6 order-lg-2  " style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://e1.pxfuel.com/desktop-wallpaper/765/533/desktop-wallpaper-classical-indian-dance-bharatanatyam-women.jpg')"}}>
 
             </div>
             <div className="col-lg-6 order-lg-1 my-auto px-5 py-5">

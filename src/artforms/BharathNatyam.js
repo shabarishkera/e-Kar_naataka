@@ -25,7 +25,7 @@ export default function BharathNatyam(argument) {
     <section id="featured">
       <div class="wrapper">
         <div class="blurb">
-          <h2><strong>BASICS</strong></h2>
+          <h2><strong></strong></h2>
           <p><strong>Namaskar/Namaskaram</strong>
             Namaskar, also referred to as Namaskaram, is the proper way of offering prayer and gratitude to those who allow the dancer to continue her Bharatanatyam education, Dancers perform the prayer before and after a session of dancing in order to practice gratitude and develop their spiritual growth. The prayer first thanks God (Nataraja), then the Guru (teacher) and parents, and finally the audience who offer their time to watch the dancer perform.</p>
           <p><strong>Adavus</strong>

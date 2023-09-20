@@ -16,6 +16,7 @@ import Kamsale from './artforms/Kamsale'
 import TigerDance from './artforms/TigerDance';
 import Login from './components/Login'
 import Signup from './components/Signup'
+import Yashagana from './artforms/Yakshagana'
 import {
   BrowserRouter as Router,
   Route,
@@ -45,6 +46,7 @@ function App() {
              <Route  exact  path='history/kamsale' element={<Kamsale/>} />
                 <Route  exact  path='history/tigerDance' element={<TigerDance/>} />
                  <Route  exact  path='history/bharathnatyam' element={<BharathNatyam/>} />
+                 <Route  exact  path='history/yakshagana' element={<Yashagana/>} />
 
                   <Route  exact  path='history/veena' element={<Veena/>} />
             <Route  exact  path='history/ganapadaGeethe' element={<GanapadaGeethe/>} />
