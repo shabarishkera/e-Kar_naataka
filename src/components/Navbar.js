@@ -9,6 +9,7 @@ const nav=useNavigate();
 const handleLogout=()=>{
 localStorage.removeItem('token');
 setLogged(false)
+window.location.reload();
 
 }
 

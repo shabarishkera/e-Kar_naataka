@@ -12,6 +12,10 @@ useEffect(() => {
   let data=await fetch(url);
     
     let jsondata=await data.json();
+    console.log(jsondata)
+    const iserror=jsondata.items;
+    if(!iserror)
+        nav('/quotalimit')
     
     setdata(jsondata.items);}
     catch (e)

@@ -17,6 +17,7 @@ import TigerDance from './artforms/TigerDance';
 import Login from './components/Login'
 import Signup from './components/Signup'
 import Yashagana from './artforms/Yakshagana'
+import ApiExausted from './components/ApiExausted'
 import {
   BrowserRouter as Router,
   Route,
@@ -51,6 +52,7 @@ function App() {
                   <Route  exact  path='history/veena' element={<Veena/>} />
             <Route  exact  path='history/ganapadaGeethe' element={<GanapadaGeethe/>} />
             <Route  exact  path='explore/learn' element={<Learn/>} />
+            <Route  exact  path='quotalimit' element={<ApiExausted/>} />
              <Route  exact  path='myLearning' element={<MyLearning/>} />
       <Route path='*' element={<Error />} />
     
