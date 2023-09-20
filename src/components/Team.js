@@ -14,7 +14,7 @@ export default function Team(argument) {
 
         </div>
 
-        <div className="row pt-4">
+        <div className="row pt-4 shadow rounded-4">
             <div className="col-md-3 text-center py-4">
                 <div className="lc-block"><img alt="" className="rounded-circle mb-3" src="https://avatars.githubusercontent.com/u/107760822?v=4" style={{height:'10vh'}} loading="lazy"/>
                     <h5 editable="inline"><strong>SHABARISH K</strong></h5>
@@ -48,7 +48,7 @@ export default function Team(argument) {
                     <a className="text-dark text-decoration-none bi bi-git" target="_blank" href="https://github.com/shabarishkera">  </a>
                 </div>
             </div>
-            <div className="col-md-3 text-center py-4">
+            <div className="col-md-3 text-center py-4 ">
                 <div className="lc-block"><img alt="" className="rounded-circle mb-3" src="https://avatars.githubusercontent.com/u/119776770?s=400&u=e1bd1cd914ae81ed06a7668363470d1266431ff0&v=4" style={{height:'10vh'}} loading="lazy"/>
                     <h5 editable="inline"><strong>SINCHAN KUMAR SY</strong></h5>
                     <small editable="inline" className="text-secondary" style={{letterSpacing:"1px"}}>CONTENT WRITER</small>

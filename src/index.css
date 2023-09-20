@@ -290,3 +290,50 @@ text-decoration: none !important;
   
 
 }
+
+
+.carousel-inner
+{
+  max-width: 600px;
+  max-height:395px;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  text-align: center;
+
+}
+.carousel-control-prev 
+{
+
+  color: black;
+
+}
+.sr-only
+{
+  color:black;
+
+}
+.carousel-caption
+{
+position: absolute;
+top:300px;
+background-color: white;
+opacity: .4;
+
+}
+.carousel-item .d-block
+{
+  border-radius: 5px;
+}
+
+.carousel-caption h5
+{
+color:black;
+
+}
+.carousel-caption p
+{
+color:black;
+
+}

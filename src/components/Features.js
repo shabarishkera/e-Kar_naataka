@@ -13,7 +13,7 @@ export default function Features(argument) {
             </div>
         </div>
       <div className="container-fluid p-0 overflow-hidden">
-        <div className="row g-0 my-5">
+        <div className="row g-0 my-5 shadow mx-5 rounded">
             <div lc-helper="background" className="col-lg-6 order-lg-2  feature_bg-1" style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center'}}>
 
             </div>
@@ -27,7 +27,7 @@ export default function Features(argument) {
             </div>
         </div>
 
-        <div className="row g-0 my-5">
+        <div className="row g-0 my-5 shadow mx-5 rounded">
            <div lc-helper="background" className="col-lg-6 feature_bg-2 " style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',}}>
 
             </div>
@@ -41,7 +41,7 @@ export default function Features(argument) {
 
             </div>
         </div>
-       <div className="row g-0 my-5">
+       <div className="row g-0 my-5 shadow mx-5 rounded">
             <div lc-helper="background" className="col-lg-6 order-lg-2  feature_" style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://images.unsplash.com/photo-1692293394002-63069eabffb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8eWFrc2hhZ2FuYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60')"}}>
 
             </div>
@@ -56,7 +56,7 @@ export default function Features(argument) {
             </div>
         </div>
 
-<div className="row g-0 my-5">
+<div className="row g-0 my-5 shadow mx-5 rounded">
            <div lc-helper="background" className="col-lg-6 feature_ " style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://e1.pxfuel.com/desktop-wallpaper/282/943/desktop-wallpaper-yakshagana.jpg')"}}>
 
             </div>
@@ -71,7 +71,7 @@ export default function Features(argument) {
             </div>
         </div>
 
-          <div className="row g-0">
+          <div className="row g-0 shadow mx-5 rounded my-3">
             <div lc-helper="background" className="col-lg-6 order-lg-2  " style={{minHeight: '45vh', backgroundSize: 'cover', backgroundPosition: 'center',backgroundImage:"url('https://e1.pxfuel.com/desktop-wallpaper/765/533/desktop-wallpaper-classical-indian-dance-bharatanatyam-women.jpg')"}}>
 
             </div>

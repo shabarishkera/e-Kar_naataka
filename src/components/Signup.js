@@ -1,5 +1,6 @@
 import {useRef} from 'react'
 import {useNavigate}from 'react-router-dom'
+import styles from '../loginsignup.module.css'
 export default function Signup(argument) {
 const email=useRef();
 const password=useRef();
@@ -38,41 +39,40 @@ else
 	return (<>
 
 
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Sign Up</h3>
-                    </div>
-                    <div class="card-body">
-                        <div>
-                            <div class="mb-3">
-                                <label for="fullname" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" ref={name} id="fullname" name="fullname" required/>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control"  ref={email} id="email" name="email" required/>
-                            </div>
-                            <div class="mb-3">
-                                <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" ref={password} id="password" name="password" required/>
-                            </div>
-                            <div class="mb-3">
-                                <label for="confirmPassword" class="form-label">Confirm Password</label>
-                                <input type="password" class="form-control" ref={confirm} id="confirmPassword" name="confirmPassword" required/>
-                            </div>
-                            <div class="d-grid mb-3">
-                                <button type="submit" class="btn btn-primary" onClick={handleSignup}>Sign Up</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     <section className={styles.section}>
+   <div className={styles.login_box}>
+    <form action="" onSubmit={(e)=>{e.preventDefault()}}>
+        <h2 className={styles.h2}>Signup</h2>
 
+         <div className={styles.input_box}>
+            <span className={styles.icon}><ion-icon name="mail"></ion-icon></span>
+            <input type="text" required placeholder="name" ref={name}/>
+           
+        </div>
+        <div className={styles.input_box}>
+            <span className={styles.icon}><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required placeholder="Email" ref={email}/>
+           
+        </div>
+        <div className={styles.input_box}>
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon><ion-icon name="lock"></ion-icon></span>
+            <input type="password" required placeholder="Password" ref={password}/>
+            
+            
+        </div>
+        <div className={styles.input_box}>
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon><ion-icon name="lock"></ion-icon></span>
+            <input type="confirm password" required placeholder="Confirm Password" ref={confirm}/>
+          
+            
+        </div>
+        
+        <button className={styles.button} type="submit" onClick={handleSignup}>Signup</button>
+       
+    </form>
+   </div>
+   </section>
+ 
   
 
 
