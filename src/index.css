@@ -192,17 +192,31 @@ backdrop-filter: blur(0px) saturate(102%);
 
 
             }
+
+
+            /*code for assistant*/
             .assist-wrap
             {
-              background-color: rgba(255, 2,9,0.5);
+              background-color: rgba(2, 2,9,0.2);
               width: 30px;
-              height: 100px;
+              border-radius: 4px;
               position: fixed;
               right:5px;
               top:50%;
-              translate: transform(-50%);
+              transform: translateY(-50%);
 
             }
+              .asist-icon
+              {
+                font-size: 30px;
+
+              }
+
+
+
+
+
+
             #google_translate_element 
             {
 display: inline;
