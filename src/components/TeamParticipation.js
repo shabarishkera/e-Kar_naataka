@@ -33,6 +33,7 @@ export default function TeamParticipation(argument) {
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner shadow mx-5">
     <div class="carousel-item active ">
@@ -56,7 +57,15 @@ export default function TeamParticipation(argument) {
     <p>yakshagana at school anual day function 2009</p>
   </div>
     </div>
+      <div class="carousel-item">
+      <img class="d-block w-100 shadow" src={require('../assets/img/c4.jpeg')} alt="Second slide"/>
+      <div class="carousel-caption d-none d-md-block justify-self-center">
+    <h5>SINCHAN KUMAR</h5>
+    <p>performance given by SINCHAN on Kannada Rajyothsava</p>
   </div>
+    </div>
+  </div>
+ 
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only"><i class="bi bi-caret-left-fill asist-icon"></i></span>

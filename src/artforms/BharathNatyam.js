@@ -1,8 +1,11 @@
+import Assistant from '../components/Assistant'
 export default function BharathNatyam(argument) {
+
 	return(<>
+    <Assistant/>
  <section id="hero">
-      <div class="wrapper">
-        <div class="welcome">
+      <div class="wrapper" id="history-content">
+        <div class="welcome" >
           <h1><strong>BARATHNATYA</strong></h1>
           <p>Bharatanatyam (Tamil: பரதநாட்டியம்) is an Indian classical dance form that originated in Tamil Nadu. It is one of eight Indian classical dance forms recognized by the Sangeet Natak Akademi, and expresses South Indian religious themes and spiritual ideas, particularly of Shaivism and in general of Hinduism.</p>
           <p>Bharatanatyam contains different types of banis. Bani, or "tradition", is a term used to describe the dance technique and style specific to a guru or school, often named for the village of the guru. Bharatanatyam style is noted for its fixed upper torso, bent legs and knees flexed (Araimandi) combined with footwork, and a vocabulary of sign language based on gestures of hands, eyes, and face muscles</p>

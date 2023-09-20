@@ -1,9 +1,11 @@
 import  '../assets/css/main.css'
+import Assistant from '../components/Assistant'
 export default function Kamsale(argument) {
 	return ( <>
+      <Assistant/>
  <section id="hero">
-      <div class="wrapper">
-        <div class="welcome">
+      <div class="wrapper" id="history-content">
+        <div class="welcome" >
           <h1><strong>KAMSALE</strong> </h1>
           <p>Kamsale (Kannada: ಕಂಸಾಳೆ) is a unique[citation needed] folk art performed by the devotees of God Mahadeshwara. Kamsale is a brass made musical instrument. Its origin is traced to the Mythological period.</p>
         </div>

@@ -1,8 +1,10 @@
+
+import Assistant from '../components/Assistant'
 export default function  GanapadaGeethe(argument) {
 	return (<>
 
-
- <div className="container">
+  <Assistant/>
+ <div className="container" id="history-content">
         <div className="row mb-4 align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
                 <div className="lc-block text-center">

@@ -1,8 +1,9 @@
+import Assistant from '../components/Assistant'
 export default function Veena(argument) {
 	return (<>
-
+  <Assistant/>
   <section id="hero">
-      <div class="wrapper">
+      <div class="wrapper" id="history-content">
         <div class="welcome ">
           <h1 className="my-3">SARASWATI<strong>VEENA</strong></h1>
           <p>Saraswati veena is an ancient Indian plucked veena. It is named after the Hindu goddess Saraswati, who is usually depicted holding or playing the instrument. Also known as raghunatha veena, it is used mostly in Carnatic Indian classical music. There are several variations of the veena, which in its South Indian form is a member of the lute family. One who plays the veena is referred to as a vaiṇika.</p>

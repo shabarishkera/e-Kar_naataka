@@ -1,9 +1,10 @@
+import Assistant from '../components/Assistant'
 export default function TigerDance(argument) {
 	return (<>
-
+  <Assistant/>
  <section id="hero">
     
-      <div class="wrapper">
+      <div class="wrapper" id="history-content">
         <div class="welcome">
           <h1><strong>PILI YESA</strong> </h1>
           <p>Pili Vesha in (Tulu: ಪಿಲಿ ಏಸ) "Tiger Masque" is a folk dance unique in coastal Karnataka. Pilivēṣa is performed during Navratri to honour the Goddess Durga, whose favoured animal is the tiger (called mārnemi). Mangalore Dasara is one of the festivals during which large number of enthusiasts participate in this ritual. It was originated in Udupi District of Karnataka and initially performed during the Krishna Janmashtami/Mosarukudike and Ganesha Chaturthi at Mangalore, Udupi, Moodabidri, Kundapur and many other places in Tulu Nadu.</p>

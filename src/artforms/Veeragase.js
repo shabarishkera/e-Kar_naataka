@@ -1,34 +1,12 @@
 import {useState,useEffect} from 'react';
+import Assistant from '../components/Assistant'
 export default function Veeragase(argument) {
-var temp;
         const [text,settext]=useState([]);
-      useEffect(()=>{
-    const content=document.getElementsByClassName("artform-content");
 
-   temp=[];
-    for(let item  of content)
-        temp.push(item.textContent);
-  
-    settext(temp);
     
-}
-
-
-    ,[]
-    );
-    
-      const changelanguage=async()=>
-      {
-       var  result=await   fetch(`https://api.mymemory.translated.net/get?q=${text[0]}&langpair=en|kn`)
-     
-       console.log(await result.json());
-
-      }
-      changelanguage();
-	
 	return (<>
-        
-		<div class="container">
+          <Assistant/>
+		<div class="container" id="history-content">
     <div class="row mb-4 align-items-center">
         <div class="col-lg-6 mb-4 mb-lg-0">
             <div class="lc-block text-center">
