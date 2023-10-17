@@ -19,7 +19,8 @@ The website offers user specific feeds and suggestions based on previous interac
 ### create a file called "ApiKey.js" in the "src" folder  and put  put following content 
 <i>const  apikey="your api key";
 module.exports={apikey};</i>
-##run the react app in the local server by typing the following command in the project directory 
+
+## run the react app in the local server by typing the following command in the project directory 
 
 `npm start`
 
