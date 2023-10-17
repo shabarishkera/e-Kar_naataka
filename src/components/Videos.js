@@ -7,12 +7,13 @@ export default function Videos({keyword})
 const [data,setdata]=useState([]);
 const nav=useNavigate();
 useEffect(() => {
+
     const fetchYoutube = async () => {
   try{
   let data=await fetch(url);
     
     let jsondata=await data.json();
-    console.log(jsondata)
+    //console.log(jsondata)
     const iserror=jsondata.items;
     if(!iserror)
         nav('/quotalimit')
@@ -66,4 +67,30 @@ return (<>
   <div className="embed-responsive embed-responsive-16by9 col-md-3">
   <iframe className="embed-responsive-item" src={videosrc}></iframe>
 </div>
+*/}
+
+
+
+
+
+{/*
+
+function onYouTubeIframeAPIReady() {
+      var player = new YT.Player('player', {
+        videoId: 'J---aiyznGQ',  // Replace with your video ID
+        playerVars: {
+          modestbranding: 1,   // Hide the YouTube logo
+          autoplay: 1,         // Autoplay the video
+          controls: 1,         // Show video controls
+          disablekb: 1,        // Disable keyboard controls
+          enablejsapi: 1,      // Enable the JavaScript API
+          loop: 0,             // Do not loop the video
+          showinfo: 0,         // Hide video title and uploader information
+        },
+        events: {
+          // Add event handlers as needed
+        }
+      });
+    }
+
 */}

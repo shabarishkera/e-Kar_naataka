@@ -2,26 +2,41 @@
 
 ## Instalation and Running the Project
 
-## Available Scripts
+# To Start backend
+ in the project directory  run 
+ ### `cd src/Pythonfiles/`
+ install the dependancies
+ ### `pip3 install requirements.txt`
+ run the backend server 
+  ### `python Loginserver.py`
 
-In the project directory, you can run:
+# To Run the App
 
-### `npm start`
+### create a file called "ApiKey.js" in the "src" folder  and put  put following content 
+<i>const  apikey="your api key";
+module.exports={apikey};</i>
+##run the react app in the local server by typing the following command in the project directory 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+app screenshots
 
-### `npm test`
+![project screenshot](./Screenshots/sc1.png)
+![project screenshot](./Screenshots/sc1.png)
+![project screenshot](./Screenshots/sc2.png)
+![project screenshot](./Screenshots/sc3.png)
+![project screenshot](./Screenshots/sc4.png)
+![project screenshot](./Screenshots/sc5.png)
+![project screenshot](./Screenshots/sc6.png)
+![project screenshot](./Screenshots/sc7.png)
+![project screenshot](./Screenshots/sc9.png)
+![project screenshot](./Screenshots/sc10.png)
+![project screenshot](./Screenshots/sc11.png)
+![project screenshot](./Screenshots/sc12.png)
+![project screenshot](./Screenshots/sc13.png)
+![project screenshot](./Screenshots/sc14.png)
+![project screenshot](./Screenshots/sc15.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The bu
