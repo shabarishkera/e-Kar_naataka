@@ -75,7 +75,7 @@ export default function Assistant(props)
 	<i className="bi bi-stop-fill asist-icon" onClick={handleStop}></i>
 	  <label>
        
-        <select value={selectedLanguage} className="bi bi-pause" onChange={handleLanguageChange}>
+        <select value={selectedLanguage} className="bi bi-pause lang_change" onChange={handleLanguageChange}>
           <option value="en-US">English (United States)</option>
           <option value="es-ES">Spanish (Spain)</option>
           <option value="fr-FR">French (France)</option>

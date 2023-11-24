@@ -352,3 +352,8 @@ left: 50%;
 transform: translate(-50%,-10%);
 
 }
+.lang_change
+{
+transform: rotateY(190deg);
+
+}
