@@ -1,1 +1,3 @@
-make update to readme by adding emojes and stickers.
+make big changes to the  working of the application
+## make logout more secure.
+
