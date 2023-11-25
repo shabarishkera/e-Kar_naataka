@@ -1,3 +1,5 @@
 make big changes to the  working of the application
-## make logout more secure.
+get rid of youtube videos and put some original content in them.
+make a profile to give more controll to user 
 
+write a backed code to get the name , email, password for the curret user .

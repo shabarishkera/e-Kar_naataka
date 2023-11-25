@@ -18,6 +18,7 @@ import Login from './components/Login'
 import Signup from './components/Signup'
 import Yashagana from './artforms/Yakshagana'
 import ApiExausted from './components/ApiExausted'
+import Profile from './components/Profile'
 import {
   BrowserRouter as Router,
   Route,
@@ -54,6 +55,8 @@ function App() {
             <Route  exact  path='explore/learn' element={<Learn/>} />
             <Route  exact  path='quotalimit' element={<ApiExausted/>} />
              <Route  exact  path='myLearning' element={<MyLearning/>} />
+             <Route  exact  path='profile' element={<Profile/>} />
+
       <Route path='*' element={<Error />} />
     
        </Routes>
