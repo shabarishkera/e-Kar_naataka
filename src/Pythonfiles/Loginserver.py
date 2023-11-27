@@ -1,7 +1,7 @@
 from flask import Flask,request
 from flask_cors import CORS,cross_origin 
 from Dboperations import addUser
-from Dboperations import checkUser,find_most_matching_keyword,update_or_insert_keyword,get_user_keywords
+from Dboperations import checkUser,find_most_matching_keyword,update_or_insert_keyword,get_user_keywords,get_user_details
 
 app = Flask(__name__)
 CORS(app)
@@ -41,6 +41,12 @@ def  getHistory():
     obj=request.json;
     data=get_user_keywords(obj['id'])
     return data;
+
+@app.route('/get_user_details',methods=['POST'])
+def get__user_data():
+    obj=request.json
+    data=get_user_details(obj.id)
+    return data
 
 
 # Define yet another route ("/custom/<name>")

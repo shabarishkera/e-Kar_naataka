@@ -74,5 +74,10 @@ def get_user_keywords(user_id):
 	
 
 
-
+def get_user_details(user_id):
+    user = collection.find_one({"_id": user_id})
+    if user:
+        return user
+    else:
+        return "404"
 

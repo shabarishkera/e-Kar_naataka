@@ -1,6 +1,24 @@
 import React from 'react'
-
+import  {useEffect,useState }from 'react'
 export default function Profile() {
+  const [profileImage,setprofileImage]=useState(null);
+
+
+  useEffect(()=>{
+    //get the image from db .
+    if(localStorage.userProfileImage)
+    setprofileImage(localStorage.userProfileImage)
+      console.log(localStorage.userProfileImage)
+    
+
+
+  },[])
+  const handleOnchange=(e)=>
+  {
+   var url=URL.createObjectURL(e.target.files[0]);
+    setprofileImage(url)
+    localStorage.userProfileImage=url;
+  }
   return (
     <div>
      <div className="container mt-5">
@@ -8,14 +26,15 @@ export default function Profile() {
         <div className="col-md-6 offset-md-3">
           <div className="card">
             <div className="card-header">
-              <h3>Profile Page</h3>
+              <h3>Profile </h3>
             </div>
             <div className="card-body">
               <img
-                src="https://placekitten.com/200/200"
+                src={profileImage}
                 alt="Profile"
-                className="img-fluid rounded-circle mb-3"
+                className="img-fluid  mb-3 img-thumbnail"
               />
+              <input  className='d-flex justify-content-center bi bi-plus' type='file' onChange={handleOnchange} />
               <h5 className="card-title">John Doe</h5>
               <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor

@@ -13,7 +13,7 @@ export default function ConfirmBox({modalvisible,title,message,handlerfunction,s
         <h2 className='text-danger'>{title}</h2>
         <p className='text-dark'>{message}</p>
         <button className='btn btn-success mx-3' onClick={handlerfunction} >ok</button>
-        <buttton className='btn btn-primary' onClick={handlecancel}>cancel</buttton>
+        <button className='btn btn-primary' onClick={handlecancel}>cancel</button>
     </div>
   )
 }
