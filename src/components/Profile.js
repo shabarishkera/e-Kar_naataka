@@ -1,7 +1,7 @@
 import React from 'react'
 import  {useEffect,useState }from 'react'
 export default function Profile() {
-  const [profileImage,setprofileImage]=useState(null);
+  const [profileImage,setprofileImage]=useState('https://t3.ftcdn.net/jpg/05/16/27/58/240_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg');
   const [name,setname]=useState('user')
   const [email,setemail]=useState('email')
   
@@ -24,11 +24,17 @@ export default function Profile() {
         body: JSON.stringify(data) // Convert the data to JSON format
       })
       const result=await res.text();
-      console.log(result);
+      const res2=JSON.parse(result)
+      console.log(res2)
+      setemail(res2.email)
+      setname(res2.name)
+      setprofileImage(res2.profileImage?res2.profileImage:profileImage)
+      
 
     }
     dbops();
 
+    
 
 
   },[])

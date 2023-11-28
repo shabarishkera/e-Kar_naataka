@@ -1,7 +1,9 @@
 import pymongo
 from pymongo import MongoClient
 import json
+from bson import ObjectId
 from fuzzywuzzy import fuzz
+from bson import json_util
 client = MongoClient("mongodb://localhost:27017/")
 db = client.ekarnataka
 collection = db.users;
@@ -73,10 +75,24 @@ def get_user_keywords(user_id):
     return keyword_list
 	
 
-
 def get_user_details(user_id):
-    user = collection.find_one({"_id": user_id})
-    print(user)
-    return user
+    try:
+        # Convert user_id to a valid ObjectId
+        user_id_object = ObjectId(user_id)
+        
+        # Query the collection using the ObjectId
+        user = collection.find_one({"_id": user_id_object})
+
+        if user is None:
+            print(f"User with id {user_id} not found.")
+            return None
+
+        print(f"User details: {user}")
+        json_object = json_util.dumps(user)
+        return json_object
+
+    except Exception as e:
+        print(f"Error converting user_id to ObjectId: {e}")
+        return None
     
 
