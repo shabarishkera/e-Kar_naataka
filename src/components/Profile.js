@@ -2,14 +2,33 @@ import React from 'react'
 import  {useEffect,useState }from 'react'
 export default function Profile() {
   const [profileImage,setprofileImage]=useState(null);
-
+  const [name,setname]=useState('user')
+  const [email,setemail]=useState('email')
+  
 
   useEffect(()=>{
     //get the image from db .
     if(localStorage.userProfileImage)
     setprofileImage(localStorage.userProfileImage)
       console.log(localStorage.userProfileImage)
-    
+    const dbops=async()=>
+    {
+      const data={'id':localStorage.getItem('token')}
+      const headers = {
+        'Content-Type': 'application/json', // Specify the content type as JSON
+        // Add any other headers as needed
+      };
+      var res=await fetch('http://127.0.0.1:5000/get_user_details', {
+        method: 'POST',          // Specify the HTTP method
+        headers: headers,        // Pass the headers object
+        body: JSON.stringify(data) // Convert the data to JSON format
+      })
+      const result=await res.text();
+      console.log(result);
+
+    }
+    dbops();
+
 
 
   },[])
@@ -35,18 +54,15 @@ export default function Profile() {
                 className="img-fluid  mb-3 img-thumbnail"
               />
               <input  className='d-flex justify-content-center bi bi-plus' type='file' onChange={handleOnchange} />
-              <h5 className="card-title">John Doe</h5>
+              <h5 className="card-title">{name}</h5>
               <p className="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
+                Configure colors , theme , profile and much more
               </p>
               <ul className="list-group">
                 <li className="list-group-item">
-                  <strong>Email:</strong> john.doe@example.com
+                  <strong>Email:</strong> {email}
                 </li>
-                <li className="list-group-item">
-                  <strong>Location:</strong> City, Country
-                </li>
+               
               </ul>
             </div>
           </div>

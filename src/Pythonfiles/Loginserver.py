@@ -45,7 +45,8 @@ def  getHistory():
 @app.route('/get_user_details',methods=['POST'])
 def get__user_data():
     obj=request.json
-    data=get_user_details(obj.id)
+    print(obj)
+    data=get_user_details(obj['id'])
     return data
 
 
