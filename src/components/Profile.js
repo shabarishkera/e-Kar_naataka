@@ -59,7 +59,8 @@ export default function Profile() {
                 alt="Profile"
                 className="img-fluid  mb-3 img-thumbnail"
               />
-              <input  className='d-flex justify-content-center bi bi-plus' type='file' onChange={handleOnchange} />
+              <label for='profile' title='change profile image' className='d-flex w-auto h1 h-50' ><i className='bi bi-plus xl'/></label>
+              <input id='profile'   className='d-flex profile_add_button hidden justify-content-center ' type='file' onChange={handleOnchange} />
               <h5 className="card-title">{name}</h5>
               <p className="card-text">
                 Configure colors , theme , profile and much more
