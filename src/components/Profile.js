@@ -76,6 +76,46 @@ export default function Profile() {
         </div>
       </div>
     </div>
+    <div class="container-fluid pt-5">
+        <div class="row mb-4 mb-lg-5 justify-content-lg-between">
+            <div class="col-3 col-md-1 col-lg-2 d-none d-md-flex align-items-center">
+                <div class="lc-block bg-dark ratio ratio-1x1" style={{opacity:'0.1'}}> </div>
+            </div>
+            <div class="col-4 col-md-3 col-lg-2 d-flex flex-column justify-content-between">
+                <div class="lc-block bg-primary ratio ratio-1x1" style={{opacity:'0.1'}}> </div>
+                <div class="lc-block">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1623707430101-9e74cefe05e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3dpdGNofGVufDB8fDB8fHww" alt="Photo by Meriç Dağlı"/>
+                </div>
+            </div>
+            <div class="col-4 col-md-4 col-lg-3"> <img class="img-fluid" src="https://images.unsplash.com/photo-1613072233238-4d290992404d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHN3aXRjaHxlbnwwfHwwfHx8MA%3D%3D" style={{objectFit:"cover" }}alt="Photo by Simone Hutsch"/></div>
+            <div class="col-4 col-md-3 col-lg-2 d-flex flex-column justify-content-between">
+                <div class="lc-block">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1551703599-586c565bba02?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHN3aXRjaHxlbnwwfHwwfHx8MA%3D%3D" alt="Photo by Simone Hutsch"/>
+                </div>
+                <div class="lc-block bg-primary ratio ratio-1x1 " style={{opacity:"0.1"}}> </div>
+            </div>
+            <div class="col-3 col-md-1 col-lg-2 d-none d-md-flex  align-items-center">
+                <div class="lc-block bg-dark ratio ratio-1x1" style={{opacity:'0.1'
+                }}> </div></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="lc-block text-center col-md-8">
+                <div editable="rich">
+                    <h1 class="rfs-25 fw-bold">Coustomize every aspect</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="lc-block text-center col-xxl-6 col-md-8">
+                <div editable="rich">
+                    <p class="lead"> have control over what you see ..., how you see ...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
   )
 }
