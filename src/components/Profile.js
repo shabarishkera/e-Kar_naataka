@@ -1,5 +1,6 @@
 import React from 'react'
 import  {useEffect,useState }from 'react'
+import SettingSwitches from './SettingSwitches';
 export default function Profile() {
   const [profileImage,setprofileImage]=useState('https://t3.ftcdn.net/jpg/05/16/27/58/240_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg');
   const [name,setname]=useState('user')
@@ -115,7 +116,7 @@ export default function Profile() {
             </div>
         </div>
     </div>
-
+<SettingSwitches/>
     </div>
   )
 }
