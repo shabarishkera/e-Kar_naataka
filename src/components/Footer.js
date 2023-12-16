@@ -1,8 +1,11 @@
 
 import  {Link} from 'react-router-dom'
+import { context } from '../store/Store'
+import { useContext } from 'react'
 export default function Footer(argument) {
+  const {footerColor,footerTextColor}=useContext(context)
 	return(<>
-		<footer className="text-center text-lg-start bg-light text-muted">
+		<footer className={`text-center text-lg-start bg-${footerColor} text-muted`}>
  
   <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
   
@@ -40,8 +43,8 @@ export default function Footer(argument) {
        
         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
          
-          <h6 className="text-uppercase fw-bold mb-4">
-            <i className="fas bi-gem me-3"></i>ಇ-Karನಾಟಕ
+          <h6 className={`text-uppercase fw-bold mb-4 text-${footerTextColor}`}>
+            <i className={`fas bi-gem me-3 text-${footerTextColor}`}></i>ಇ-Karನಾಟಕ
           </h6>
           <p>
            Our website is a comprehensive sanctuary for those eager to explore, learn, and immerse themselves in the vibrant traditions that define Karnataka's artistic legacy.
@@ -52,7 +55,7 @@ export default function Footer(argument) {
        
         <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
         
-          <h6 className="text-uppercase fw-bold mb-4">
+          <h6 className={`text-uppercase fw-bold mb-4 text-${footerTextColor}`}>
             Useful links
           </h6>
           <p>
@@ -74,7 +77,7 @@ export default function Footer(argument) {
        
         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
        
-          <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+          <h6 className={`text-uppercase fw-bold mb-4 text-${footerTextColor}`}>Contact</h6>
           <p><i className="fas bi-home me-3"></i>KVGENGG KURUNJIBHAG,SULLIA,DAKSHINA KANNADA (DK)</p>
           <p>
             <i className="fas bi-envelope me-3"></i>
