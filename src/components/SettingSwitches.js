@@ -1,6 +1,36 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
+import { context } from '../store/Store'
+
+
 
 export default function SettingSwitches() {
+    const{navbarColor,setNavbarColor,navtextColor,setNavtextColor,footerColor,setFooterColor,footerTextColor,setFooterTextColor}=useContext(context);
+
+    const handleClick=()=>
+    {
+        console.log("pressed")
+        if(navbarColor=='light')
+        {
+            setNavbarColor('dark');
+            setFooterColor('dark');
+            setNavtextColor('light');
+            setFooterTextColor('light');
+        }
+        else
+        {
+            setNavbarColor('light');
+            setFooterColor('light');
+            setNavtextColor('dark');
+            setFooterTextColor('dark');
+
+
+        }
+
+
+
+
+    }
+
   return (
     <div>
       
@@ -14,10 +44,10 @@ export default function SettingSwitches() {
 
                         </div>
                         <div class="lc-block">
-                            <div editable="rich">
+                            <div  editable="rich">
 
-                            <input type="checkbox"  class="btn-check" id="btn-check-outlined" autocomplete="off"/>
-<label class="btn btn-outline-primary" for="btn-check-outlined">dark mode</label><br/>
+                            <input type="checkbox"   class="btn-check" id="btn-check-outlined" autocomplete="off"/>
+<label class="btn btn-outline-primary" onClick={handleClick}  for="btn-check-outlined">dark mode</label><br/>
 
                             </div>
                         </div>
